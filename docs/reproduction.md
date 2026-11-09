@@ -285,7 +285,7 @@ blends in a separate output directory so the original results remain intact:
 ```bash
 systemd-inhibit --what=idle:sleep:shutdown --mode=block \
   --why='Running paper reproducibility checks' \
-  'cd /app && PYTHONPATH=. python -m scripts.analysis.reproducibility_test --tier 1'
+  env PYTHONPATH=. python -m scripts.analysis.reproducibility_test --tier 1
 ```
 
 The verification was run inside the project container with the host sleep
