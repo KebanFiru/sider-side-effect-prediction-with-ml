@@ -296,3 +296,15 @@ execution paths, even with `random_state=0`. The report is written to
 `outputs/eval_repro/repro_report.csv` and
 `outputs/eval_repro/repro_endpoint_auc.csv`; a FAIL here is an exact
 reproducibility warning, not evidence that the model or split is invalid.
+
+The latest Tier 1 rerun produced these macro-AUC values:
+
+| Model | Scaffold-204 | OGB/Hu | Random mean |
+|---|---:|---:|---:|
+| RF, ECFP4 + RDKit | 0.615 | 0.678 | 0.680 |
+| GIN (A3+A5) | 0.622 | 0.629 | 0.670 |
+| GIN (A3+A5) + RF | 0.631 | 0.672 | 0.686 |
+
+These are verification values from retraining and re-evaluation; the paper
+tables continue to use the original held-out outputs unless explicitly
+regenerated from the verification directory.

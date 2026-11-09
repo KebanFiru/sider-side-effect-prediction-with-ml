@@ -24,6 +24,15 @@ An untuned Random Forest matches or beats the graph neural network on this
 dataset; the blend clearly beats the GNN but does not significantly beat the
 RF. Confidence intervals, paired tests and the per-split numbers are in the paper.
 
+The table above reports the values used in the paper. A later verification
+rerun re-evaluated the stored GIN checkpoints, retrained the RF, and rebuilt
+the blends without overwriting the paper outputs. The refreshed values were
+0.615 / 0.678 / 0.680 for RF and 0.631 / 0.672 / 0.686 for the A3+A5+RF
+blend (scaffold / OGB / random mean). The small RF differences are expected
+when a parallel forest is retrained; the reported conclusions do not change.
+The verification report is described in
+[`docs/reproduction.md`](docs/reproduction.md).
+
 ## Setup and usage
 
 Install the dependencies and run commands from the repository root:
@@ -77,6 +86,8 @@ the command that produces it and the file it lands in.
 - **Comparisons are paired.** Paired bootstrap over the same molecules with
   2000 resamples; confidence intervals are bootstrapped too. No
   multiple-comparison correction is applied.
+- **Verification is non-destructive.** Reproducibility reruns write to a
+  separate output directory and do not replace the paper's original results.
 
 ## Datasets
 
