@@ -288,8 +288,9 @@ systemd-inhibit --what=idle:sleep:shutdown --mode=block \
   env PYTHONPATH=. python -m scripts.analysis.reproducibility_test --tier 1
 ```
 
-The verification was run inside the project container with the host sleep
-inhibitor enabled. Stored GIN checkpoint re-evaluation passed; the RF and
+The verification was run in the project's reproducible Python environment
+with the host sleep inhibitor enabled. Stored GIN checkpoint re-evaluation
+passed; the RF and
 dependent blend checks can report FAIL because retraining a Random Forest
 does not guarantee bit-identical probabilities across library/runtime
 execution paths, even with `random_state=0`. The report is written to
