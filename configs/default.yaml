@@ -1,0 +1,79 @@
+dataset:
+  name: sider
+  root: data/raw
+  processed_root: data/processed
+  processed_multitask_root: data/processed_multitask
+  split: scaffold
+  # Type of the GIN-v2 clean test split (carve_heldout_test=True paths only):
+  # scaffold (scaffold-204, default) | ogb_scaffold (OGB/Hu) | random (80/10/10,
+  # test molecules in data/raw/gin_v2_random_test_ids_seed{random_split_seed}.json)
+  # | paradigm (see src/splits.py)
+  heldout_split: scaffold
+  random_split_seed: 0
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  aux_datasets: [tox21, clintox, bbbp, hiv, muv]
+  sider_augment_copies: 6
+  sider_batch_fraction: 0.5
+
+  # ChEMBL target feature file. load_config() passes this version to the process
+  # explicitly through src.data.featurize.configure_target_features(); a hash
+  # mismatch raises an error.
+  chembl_feature_version: v2
+  chembl_feature_files:
+    v2: data/raw/chembl_target_features_v2_backup.json
+
+  # REQUIRED when ablation.use_rdkit_descriptors=true; see
+  # RDKitDescriptorNormalizer.fit(train_smiles).to_json(path).
+  rdkit_descriptor_normalizer_path: null
+
+model:
+  encoder: gin
+  hidden_dim: 128
+  num_layers: 3
+  dropout: 0.3
+  readout: mean
+  task_attention: true
+
+train:
+  batch_size: 64
+  lr: 0.0005
+  weight_decay: 1e-4
+
+  loss: focal
+  focal_gamma: 2.0
+  focal_alpha: 0.25
+
+  focal_task_alpha: true
+
+  # With ablation.use_asl=true ASL replaces focal loss (see
+  # src/losses.py::AsymmetricLoss); the focal_* parameters are then unused.
+  asl_gamma_neg: 4.0
+  asl_gamma_pos: 1.0
+  asl_clip: 0.05
+
+  # With ablation.use_swa=true, this many EXTRA epochs run on top of the best
+  # (early-stopped) model and the weights are averaged.
+  swa_epochs: 5
+  swa_lr: 0.00005
+  lr_scheduler:
+    mode: max
+    factor: 0.5
+    patience: 8
+    eps: 1e-8
+  epochs: 200
+  early_stopping_patience: 25
+  device: cuda
+  seed: 42
+
+# GIN-v2 ablation: every component is a separate flag, and the ablation is run
+# by switching flags, not by copying code. The defaults reproduce the baseline
+# (group 2a) exactly.
+ablation:
+  use_asl: false                # 2.2: Asymmetric Loss instead of focal loss
+  use_rdkit_descriptors: false  # 2.3: fusion of the 217 RDKit 2D descriptors
+  gin_layers: 3                 # 2.1: 3 (baseline) -> 5 (pretrain-GNN default)
+  task_weighting: none          # 2.5: none | uncertainty
+  use_swa: false                # 2.6: Stochastic Weight Averaging
+  ensemble_size: 5              # number of seeds in the deep ensemble

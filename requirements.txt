@@ -1,0 +1,10 @@
+torch
+torch-geometric
+rdkit
+deepchem
+scikit-learn
+xgboost
+pandas
+numpy
+scipy
+pyyaml
