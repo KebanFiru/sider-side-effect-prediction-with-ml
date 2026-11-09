@@ -274,3 +274,25 @@ All comparisons live in `src/eval_metrics.py`:
 
 No multiple-comparison correction is applied, so individual p-values should be
 read as exploratory.
+
+## 8. Reproducibility verification
+
+The paper-facing Tier 1 verification covers the stored GIN ensembles, the
+ECFP4+RDKit RF on all three split families, and the GIN+RF blends. It
+re-evaluates GIN checkpoints, retrains the classical models, and recomputes
+blends in a separate output directory so the original results remain intact:
+
+```bash
+systemd-inhibit --what=idle:sleep:shutdown --mode=block \
+  --why='Running paper reproducibility checks' \
+  'cd /app && PYTHONPATH=. python -m scripts.analysis.reproducibility_test --tier 1'
+```
+
+The verification was run inside the project container with the host sleep
+inhibitor enabled. Stored GIN checkpoint re-evaluation passed; the RF and
+dependent blend checks can report FAIL because retraining a Random Forest
+does not guarantee bit-identical probabilities across library/runtime
+execution paths, even with `random_state=0`. The report is written to
+`outputs/eval_repro/repro_report.csv` and
+`outputs/eval_repro/repro_endpoint_auc.csv`; a FAIL here is an exact
+reproducibility warning, not evidence that the model or split is invalid.
