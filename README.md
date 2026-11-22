@@ -123,15 +123,17 @@ PYTHONPATH=. python -m scripts.analysis.conformal_repeated_cv --repeats 10
 PYTHONPATH=. python -m scripts.analysis.conformal_cluster
 ```
 
-**Verification status.** Steps 3-6 were rerun from the tracked `.npz` files in
-the pinned environment of `requirements.txt` (Python 3.10.14, scikit-learn
-1.7.2). All 22 JSON/CSV files in `outputs/conformal/` that these steps write
-(including the 10 repeated scaffold-grouped CV results and the Random Forest
-retrained within them) were reproduced identically to 1e-9 (CSV files
-byte for byte). Not rerun: `conformal_probs --part gin` (needs the GIN
-checkpoints, which are not tracked) and the full `--part rf` / `--part yrand`
-refits (a single RF fold was refit and matches the stored out-of-fold
-probabilities exactly).
+**Verification status.** Every step was rerun in the pinned environment of
+`requirements.txt` (Python 3.10.14, scikit-learn 1.7.2):
+- `conformal_probs --part rf`: `rf_*.npz` identical to the tracked files
+  (the refit test probabilities equal the paper's stored ones, max abs diff 0).
+- `--part yrand`: identical (largest deviation 1.1e-16).
+- `--part gin` (five-seed GIN A3+A5 checkpoints, CPU, about 17 min): equal to
+  the tracked `gin_*.npz` within 3.3e-6 (float32 noise; the ensemble test
+  probabilities differ from the stored ones by at most 6.5e-7).
+- Steps 2-6: all 22 JSON/CSV files in `outputs/conformal/` reproduced
+  identically to 1e-9 (CSV files byte for byte), including the 10 repeated
+  scaffold-grouped CV results.
 
 The Random Forest retraining is scikit-learn-version sensitive: with
 scikit-learn 1.9.1, `RandomForestClassifier(class_weight="balanced")` on the
