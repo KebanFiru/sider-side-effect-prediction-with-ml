@@ -1,10 +1,15 @@
-torch
-torch-geometric
-rdkit
-deepchem
-scikit-learn
-xgboost
-pandas
-numpy
-scipy
-pyyaml
+# Versions of the environment in which the paper outputs were produced and the
+# conformal study was re-verified (Python 3.10.14).
+# Retraining the Random Forest is version-sensitive: with scikit-learn 1.9.1,
+# RandomForestClassifier(class_weight="balanced") on the multi-output target
+# gives degenerate probabilities, so keep scikit-learn at 1.7.2.
+torch==2.3.1
+torch-geometric==2.8.0.post1
+rdkit==2026.3.6
+deepchem==2.8.0
+scikit-learn==1.7.2
+xgboost==3.2.0
+pandas==2.3.3
+numpy==1.26.4
+scipy==1.15.3
+pyyaml==6.0.1

@@ -90,8 +90,8 @@ per-molecule probabilities as `.npz`, `results_*.json`, `*.csv`). They contain
 no drug names; molecules are identified by their SIDER SMILES strings. Data source:
 SIDER from MoleculeNet via DeepChem (`data/raw/sider.csv.gz`, downloaded on
 first use) and the OGB `ogbg-molsider` scaffold split; the fixed split lists
-are in `data/raw/`. Environment: Python 3 with `requirements.txt`
-(RDKit, scikit-learn, SciPy, NumPy; PyTorch + PyG only for `--part gin`).
+are in `data/raw/`. Environment: Python 3.10 with the pinned `requirements.txt`
+(RDKit, scikit-learn 1.7.2, SciPy, NumPy; PyTorch + PyG only for `--part gin`).
 Run from the repository root with `PYTHONPATH=.`; all conformal quantities
 use `RandomState(0)` bootstraps (2000 resamples).
 
@@ -123,23 +123,20 @@ PYTHONPATH=. python -m scripts.analysis.conformal_repeated_cv --repeats 10
 PYTHONPATH=. python -m scripts.analysis.conformal_cluster
 ```
 
-**Verification status and a scikit-learn caveat.** Rerunning steps 2, 3, 4
-and 6 from the tracked `.npz` files (Python 3.14, scikit-learn 1.9.1,
-RDKit 2026.9.2, SciPy 1.18.1) reproduces `label_counts.csv`,
-`results_flat.csv`, `results_boot_*`, `results_molecule_level_*`,
-`results_selective_*`, `results_majority_baseline_*` and
-`results_cluster_summary.csv` exactly. In `results_{split}.json` only the
-Platt-rescaling block differs (at most 1.3e-4, solver tolerance), and in
-`results_cluster_*.json` the order of equally large scaffolds in the
-`largest_scaffolds` listing differs. Steps that **retrain** the Random Forest
-(`conformal_probs --part rf`, the repeated-CV step 5, and the
-"over repeated CV" blocks of `results_gated_*.json`) did **not** reproduce:
-with scikit-learn 1.9.1, `RandomForestClassifier(class_weight="balanced")` on
-the 27-column multi-output target returns degenerate probabilities (mean 0.11
-against 0.58 in the stored out-of-fold probabilities), so the conformal numbers
-computed from them are not comparable. Use the scikit-learn version of the
-original environment for those steps (not recorded in `requirements.txt`) or
-rely on the tracked `.npz`/JSON files.
+**Verification status.** Steps 3-6 were rerun from the tracked `.npz` files in
+the pinned environment of `requirements.txt` (Python 3.10.14, scikit-learn
+1.7.2). All 22 JSON/CSV files in `outputs/conformal/` that these steps write
+(including the 10 repeated scaffold-grouped CV results and the Random Forest
+retrained within them) were reproduced identically to 1e-9 (CSV files
+byte for byte). Not rerun: `conformal_probs --part gin` (needs the GIN
+checkpoints, which are not tracked) and the full `--part rf` / `--part yrand`
+refits (a single RF fold was refit and matches the stored out-of-fold
+probabilities exactly).
+
+The Random Forest retraining is scikit-learn-version sensitive: with
+scikit-learn 1.9.1, `RandomForestClassifier(class_weight="balanced")` on the
+27-column multi-output target returns degenerate probabilities (mean 0.11
+against 0.58), so keep the pinned version.
 
 Paper elements and their sources: the coverage/efficiency table
 (`tab:coverage`) reads `results_{split}.json`; the gated table
