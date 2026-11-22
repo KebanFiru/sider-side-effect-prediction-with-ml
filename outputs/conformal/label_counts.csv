@@ -1,0 +1,163 @@
+split,set,endpoint_idx,endpoint,n,n_pos,n_neg,pos_ok_alpha0.10,pos_ok_alpha0.20,neg_ok_alpha0.10,neg_ok_alpha0.20
+scaffold,rf_oof,0,Hepatobiliary disorders,1100,595,505,True,True,True,True
+scaffold,rf_oof,1,Metabolism and nutrition disorders,1100,796,304,True,True,True,True
+scaffold,rf_oof,2,Product issues,1100,16,1084,True,True,True,True
+scaffold,rf_oof,3,Eye disorders,1100,678,422,True,True,True,True
+scaffold,rf_oof,4,Investigations,1100,902,198,True,True,True,True
+scaffold,rf_oof,5,Musculoskeletal and connective tissue disorders,1100,778,322,True,True,True,True
+scaffold,rf_oof,6,Gastrointestinal disorders,1100,1018,82,True,True,True,True
+scaffold,rf_oof,7,Social circumstances,1100,204,896,True,True,True,True
+scaffold,rf_oof,8,Immune system disorders,1100,802,298,True,True,True,True
+scaffold,rf_oof,9,Reproductive system and breast disorders,1100,576,524,True,True,True,True
+scaffold,rf_oof,10,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",1100,311,789,True,True,True,True
+scaffold,rf_oof,11,General disorders and administration site conditions,1100,996,104,True,True,True,True
+scaffold,rf_oof,12,Endocrine disorders,1100,250,850,True,True,True,True
+scaffold,rf_oof,13,Surgical and medical procedures,1100,170,930,True,True,True,True
+scaffold,rf_oof,14,Vascular disorders,1100,865,235,True,True,True,True
+scaffold,rf_oof,15,Blood and lymphatic system disorders,1100,710,390,True,True,True,True
+scaffold,rf_oof,16,Skin and subcutaneous tissue disorders,1100,1012,88,True,True,True,True
+scaffold,rf_oof,17,"Congenital, familial and genetic disorders",1100,192,908,True,True,True,True
+scaffold,rf_oof,18,Infections and infestations,1100,782,318,True,True,True,True
+scaffold,rf_oof,19,"Respiratory, thoracic and mediastinal disorders",1100,825,275,True,True,True,True
+scaffold,rf_oof,20,Psychiatric disorders,1100,799,301,True,True,True,True
+scaffold,rf_oof,21,Renal and urinary disorders,1100,722,378,True,True,True,True
+scaffold,rf_oof,22,"Pregnancy, puerperium and perinatal conditions",1100,94,1006,True,True,True,True
+scaffold,rf_oof,23,Ear and labyrinth disorders,1100,519,581,True,True,True,True
+scaffold,rf_oof,24,Cardiac disorders,1100,769,331,True,True,True,True
+scaffold,rf_oof,25,Nervous system disorders,1100,1004,96,True,True,True,True
+scaffold,rf_oof,26,"Injury, poisoning and procedural complications",1100,733,367,True,True,True,True
+scaffold,stopping_slice,0,Hepatobiliary disorders,123,47,76,True,True,True,True
+scaffold,stopping_slice,1,Metabolism and nutrition disorders,123,69,54,True,True,True,True
+scaffold,stopping_slice,2,Product issues,123,2,121,False,False,True,True
+scaffold,stopping_slice,3,Eye disorders,123,69,54,True,True,True,True
+scaffold,stopping_slice,4,Investigations,123,88,35,True,True,True,True
+scaffold,stopping_slice,5,Musculoskeletal and connective tissue disorders,123,79,44,True,True,True,True
+scaffold,stopping_slice,6,Gastrointestinal disorders,123,95,28,True,True,True,True
+scaffold,stopping_slice,7,Social circumstances,123,12,111,True,True,True,True
+scaffold,stopping_slice,8,Immune system disorders,123,82,41,True,True,True,True
+scaffold,stopping_slice,9,Reproductive system and breast disorders,123,57,66,True,True,True,True
+scaffold,stopping_slice,10,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",123,24,99,True,True,True,True
+scaffold,stopping_slice,11,General disorders and administration site conditions,123,106,17,True,True,True,True
+scaffold,stopping_slice,12,Endocrine disorders,123,35,88,True,True,True,True
+scaffold,stopping_slice,13,Surgical and medical procedures,123,9,114,True,True,True,True
+scaffold,stopping_slice,14,Vascular disorders,123,84,39,True,True,True,True
+scaffold,stopping_slice,15,Blood and lymphatic system disorders,123,55,68,True,True,True,True
+scaffold,stopping_slice,16,Skin and subcutaneous tissue disorders,123,112,11,True,True,True,True
+scaffold,stopping_slice,17,"Congenital, familial and genetic disorders",123,22,101,True,True,True,True
+scaffold,stopping_slice,18,Infections and infestations,123,95,28,True,True,True,True
+scaffold,stopping_slice,19,"Respiratory, thoracic and mediastinal disorders",123,84,39,True,True,True,True
+scaffold,stopping_slice,20,Psychiatric disorders,123,73,50,True,True,True,True
+scaffold,stopping_slice,21,Renal and urinary disorders,123,65,58,True,True,True,True
+scaffold,stopping_slice,22,"Pregnancy, puerperium and perinatal conditions",123,11,112,True,True,True,True
+scaffold,stopping_slice,23,Ear and labyrinth disorders,123,45,78,True,True,True,True
+scaffold,stopping_slice,24,Cardiac disorders,123,68,55,True,True,True,True
+scaffold,stopping_slice,25,Nervous system disorders,123,107,16,True,True,True,True
+scaffold,stopping_slice,26,"Injury, poisoning and procedural complications",123,76,47,True,True,True,True
+scaffold,test,0,Hepatobiliary disorders,204,101,103,True,True,True,True
+scaffold,test,1,Metabolism and nutrition disorders,204,131,73,True,True,True,True
+scaffold,test,2,Product issues,204,4,200,False,True,True,True
+scaffold,test,3,Eye disorders,204,129,75,True,True,True,True
+scaffold,test,4,Investigations,204,161,43,True,True,True,True
+scaffold,test,5,Musculoskeletal and connective tissue disorders,204,140,64,True,True,True,True
+scaffold,test,6,Gastrointestinal disorders,204,185,19,True,True,True,True
+scaffold,test,7,Social circumstances,204,35,169,True,True,True,True
+scaffold,test,8,Immune system disorders,204,140,64,True,True,True,True
+scaffold,test,9,Reproductive system and breast disorders,204,94,110,True,True,True,True
+scaffold,test,10,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",204,41,163,True,True,True,True
+scaffold,test,11,General disorders and administration site conditions,204,190,14,True,True,True,True
+scaffold,test,12,Endocrine disorders,204,38,166,True,True,True,True
+scaffold,test,13,Surgical and medical procedures,204,34,170,True,True,True,True
+scaffold,test,14,Vascular disorders,204,159,45,True,True,True,True
+scaffold,test,15,Blood and lymphatic system disorders,204,120,84,True,True,True,True
+scaffold,test,16,Skin and subcutaneous tissue disorders,204,194,10,True,True,True,True
+scaffold,test,17,"Congenital, familial and genetic disorders",204,39,165,True,True,True,True
+scaffold,test,18,Infections and infestations,204,129,75,True,True,True,True
+scaffold,test,19,"Respiratory, thoracic and mediastinal disorders",204,151,53,True,True,True,True
+scaffold,test,20,Psychiatric disorders,204,144,60,True,True,True,True
+scaffold,test,21,Renal and urinary disorders,204,124,80,True,True,True,True
+scaffold,test,22,"Pregnancy, puerperium and perinatal conditions",204,20,184,True,True,True,True
+scaffold,test,23,Ear and labyrinth disorders,204,95,109,True,True,True,True
+scaffold,test,24,Cardiac disorders,204,151,53,True,True,True,True
+scaffold,test,25,Nervous system disorders,204,193,11,True,True,True,True
+scaffold,test,26,"Injury, poisoning and procedural complications",204,137,67,True,True,True,True
+ogb_scaffold,rf_oof,0,Hepatobiliary disorders,1141,588,553,True,True,True,True
+ogb_scaffold,rf_oof,1,Metabolism and nutrition disorders,1141,787,354,True,True,True,True
+ogb_scaffold,rf_oof,2,Product issues,1141,16,1125,True,True,True,True
+ogb_scaffold,rf_oof,3,Eye disorders,1141,701,440,True,True,True,True
+ogb_scaffold,rf_oof,4,Investigations,1141,907,234,True,True,True,True
+ogb_scaffold,rf_oof,5,Musculoskeletal and connective tissue disorders,1141,785,356,True,True,True,True
+ogb_scaffold,rf_oof,6,Gastrointestinal disorders,1141,1033,108,True,True,True,True
+ogb_scaffold,rf_oof,7,Social circumstances,1141,201,940,True,True,True,True
+ogb_scaffold,rf_oof,8,Immune system disorders,1141,811,330,True,True,True,True
+ogb_scaffold,rf_oof,9,Reproductive system and breast disorders,1141,561,580,True,True,True,True
+ogb_scaffold,rf_oof,10,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",1141,302,839,True,True,True,True
+ogb_scaffold,rf_oof,11,General disorders and administration site conditions,1141,1032,109,True,True,True,True
+ogb_scaffold,rf_oof,12,Endocrine disorders,1141,267,874,True,True,True,True
+ogb_scaffold,rf_oof,13,Surgical and medical procedures,1141,175,966,True,True,True,True
+ogb_scaffold,rf_oof,14,Vascular disorders,1141,880,261,True,True,True,True
+ogb_scaffold,rf_oof,15,Blood and lymphatic system disorders,1141,710,431,True,True,True,True
+ogb_scaffold,rf_oof,16,Skin and subcutaneous tissue disorders,1141,1042,99,True,True,True,True
+ogb_scaffold,rf_oof,17,"Congenital, familial and genetic disorders",1141,213,928,True,True,True,True
+ogb_scaffold,rf_oof,18,Infections and infestations,1141,794,347,True,True,True,True
+ogb_scaffold,rf_oof,19,"Respiratory, thoracic and mediastinal disorders",1141,840,301,True,True,True,True
+ogb_scaffold,rf_oof,20,Psychiatric disorders,1141,805,336,True,True,True,True
+ogb_scaffold,rf_oof,21,Renal and urinary disorders,1141,729,412,True,True,True,True
+ogb_scaffold,rf_oof,22,"Pregnancy, puerperium and perinatal conditions",1141,102,1039,True,True,True,True
+ogb_scaffold,rf_oof,23,Ear and labyrinth disorders,1141,539,602,True,True,True,True
+ogb_scaffold,rf_oof,24,Cardiac disorders,1141,783,358,True,True,True,True
+ogb_scaffold,rf_oof,25,Nervous system disorders,1141,1030,111,True,True,True,True
+ogb_scaffold,rf_oof,26,"Injury, poisoning and procedural complications",1141,747,394,True,True,True,True
+ogb_scaffold,stopping_slice,0,Hepatobiliary disorders,143,79,64,True,True,True,True
+ogb_scaffold,stopping_slice,1,Metabolism and nutrition disorders,143,109,34,True,True,True,True
+ogb_scaffold,stopping_slice,2,Product issues,143,3,140,False,False,True,True
+ogb_scaffold,stopping_slice,3,Eye disorders,143,95,48,True,True,True,True
+ogb_scaffold,stopping_slice,4,Investigations,143,116,27,True,True,True,True
+ogb_scaffold,stopping_slice,5,Musculoskeletal and connective tissue disorders,143,100,43,True,True,True,True
+ogb_scaffold,stopping_slice,6,Gastrointestinal disorders,143,131,12,True,True,True,True
+ogb_scaffold,stopping_slice,7,Social circumstances,143,30,113,True,True,True,True
+ogb_scaffold,stopping_slice,8,Immune system disorders,143,108,35,True,True,True,True
+ogb_scaffold,stopping_slice,9,Reproductive system and breast disorders,143,82,61,True,True,True,True
+ogb_scaffold,stopping_slice,10,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",143,36,107,True,True,True,True
+ogb_scaffold,stopping_slice,11,General disorders and administration site conditions,143,133,10,True,True,True,True
+ogb_scaffold,stopping_slice,12,Endocrine disorders,143,24,119,True,True,True,True
+ogb_scaffold,stopping_slice,13,Surgical and medical procedures,143,23,120,True,True,True,True
+ogb_scaffold,stopping_slice,14,Vascular disorders,143,116,27,True,True,True,True
+ogb_scaffold,stopping_slice,15,Blood and lymphatic system disorders,143,89,54,True,True,True,True
+ogb_scaffold,stopping_slice,16,Skin and subcutaneous tissue disorders,143,138,5,True,True,False,True
+ogb_scaffold,stopping_slice,17,"Congenital, familial and genetic disorders",143,22,121,True,True,True,True
+ogb_scaffold,stopping_slice,18,Infections and infestations,143,108,35,True,True,True,True
+ogb_scaffold,stopping_slice,19,"Respiratory, thoracic and mediastinal disorders",143,112,31,True,True,True,True
+ogb_scaffold,stopping_slice,20,Psychiatric disorders,143,110,33,True,True,True,True
+ogb_scaffold,stopping_slice,21,Renal and urinary disorders,143,95,48,True,True,True,True
+ogb_scaffold,stopping_slice,22,"Pregnancy, puerperium and perinatal conditions",143,14,129,True,True,True,True
+ogb_scaffold,stopping_slice,23,Ear and labyrinth disorders,143,66,77,True,True,True,True
+ogb_scaffold,stopping_slice,24,Cardiac disorders,143,106,37,True,True,True,True
+ogb_scaffold,stopping_slice,25,Nervous system disorders,143,141,2,True,True,False,False
+ogb_scaffold,stopping_slice,26,"Injury, poisoning and procedural complications",143,99,44,True,True,True,True
+ogb_scaffold,test,0,Hepatobiliary disorders,143,76,67,True,True,True,True
+ogb_scaffold,test,1,Metabolism and nutrition disorders,143,100,43,True,True,True,True
+ogb_scaffold,test,2,Product issues,143,3,140,False,False,True,True
+ogb_scaffold,test,3,Eye disorders,143,80,63,True,True,True,True
+ogb_scaffold,test,4,Investigations,143,128,15,True,True,True,True
+ogb_scaffold,test,5,Musculoskeletal and connective tissue disorders,143,112,31,True,True,True,True
+ogb_scaffold,test,6,Gastrointestinal disorders,143,134,9,True,True,True,True
+ogb_scaffold,test,7,Social circumstances,143,20,123,True,True,True,True
+ogb_scaffold,test,8,Immune system disorders,143,105,38,True,True,True,True
+ogb_scaffold,test,9,Reproductive system and breast disorders,143,84,59,True,True,True,True
+ogb_scaffold,test,10,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",143,38,105,True,True,True,True
+ogb_scaffold,test,11,General disorders and administration site conditions,143,127,16,True,True,True,True
+ogb_scaffold,test,12,Endocrine disorders,143,32,111,True,True,True,True
+ogb_scaffold,test,13,Surgical and medical procedures,143,15,128,True,True,True,True
+ogb_scaffold,test,14,Vascular disorders,143,112,31,True,True,True,True
+ogb_scaffold,test,15,Blood and lymphatic system disorders,143,86,57,True,True,True,True
+ogb_scaffold,test,16,Skin and subcutaneous tissue disorders,143,138,5,True,True,False,True
+ogb_scaffold,test,17,"Congenital, familial and genetic disorders",143,18,125,True,True,True,True
+ogb_scaffold,test,18,Infections and infestations,143,104,39,True,True,True,True
+ogb_scaffold,test,19,"Respiratory, thoracic and mediastinal disorders",143,108,35,True,True,True,True
+ogb_scaffold,test,20,Psychiatric disorders,143,101,42,True,True,True,True
+ogb_scaffold,test,21,Renal and urinary disorders,143,87,56,True,True,True,True
+ogb_scaffold,test,22,"Pregnancy, puerperium and perinatal conditions",143,9,134,True,True,True,True
+ogb_scaffold,test,23,Ear and labyrinth disorders,143,54,89,True,True,True,True
+ogb_scaffold,test,24,Cardiac disorders,143,99,44,True,True,True,True
+ogb_scaffold,test,25,Nervous system disorders,143,133,10,True,True,True,True
+ogb_scaffold,test,26,"Injury, poisoning and procedural complications",143,100,43,True,True,True,True

@@ -1,0 +1,715 @@
+{
+ "split": "ogb_scaffold",
+ "repeats": 10,
+ "std": "population SD over repeated scaffold-grouped CV calibration sets",
+ "alpha0.1_standard": {
+  "coverage": {
+   "mean": 0.9095312095312096,
+   "std": 0.0021170003716052366
+  },
+  "cov_pos": {
+   "mean": 0.964457557875624,
+   "std": 0.0007333406455471406
+  },
+  "cov_neg": {
+   "mean": 0.8365500603136308,
+   "std": 0.004671873758995665
+  },
+  "mean_size": {
+   "mean": 1.359181559181559,
+   "std": 0.00784971633857121
+  },
+  "singleton_rate": {
+   "mean": 0.6284900284900286,
+   "std": 0.007957000544655752
+  },
+  "singleton_accuracy": {
+   "mean": 0.8658813375664085,
+   "std": 0.0018936706078305173
+  },
+  "ppv": {
+   "mean": 0.8531220637454198,
+   "std": 0.0021404400790413047
+  },
+  "npv": {
+   "mean": 0.8956945908852981,
+   "std": 0.0017041206516166714
+  },
+  "share_singleton_pos": {
+   "mean": 0.44004144004143997,
+   "std": 0.007683189315820415
+  },
+  "share_singleton_neg": {
+   "mean": 0.18844858844858844,
+   "std": 0.0023026273784918817
+  },
+  "endpoint_choice": [
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard"
+  ]
+ },
+ "alpha0.1_mondrian": {
+  "coverage": {
+   "mean": 0.909013209013209,
+   "std": 0.0021327849651427183
+  },
+  "cov_pos": {
+   "mean": 0.946890603722197,
+   "std": 0.002805544646457093
+  },
+  "cov_neg": {
+   "mean": 0.8586851628468034,
+   "std": 0.0032819705332721
+  },
+  "mean_size": {
+   "mean": 1.6869204869204872,
+   "std": 0.006101421655209145
+  },
+  "singleton_rate": {
+   "mean": 0.3130795130795131,
+   "std": 0.006101421655209157
+  },
+  "singleton_accuracy": {
+   "mean": 0.7093734077178334,
+   "std": 0.004363726774531662
+  },
+  "ppv": {
+   "mean": 0.7306471781736422,
+   "std": 0.005035607155505131
+  },
+  "npv": {
+   "mean": 0.6548723233301358,
+   "std": 0.007438789531165301
+  },
+  "share_singleton_pos": {
+   "mean": 0.22533022533022534,
+   "std": 0.005110909277492722
+  },
+  "share_singleton_neg": {
+   "mean": 0.08774928774928775,
+   "std": 0.0028952475757538705
+  },
+  "endpoint_choice": [
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian"
+  ]
+ },
+ "alpha0.1_gated0.10": {
+  "coverage": {
+   "mean": 0.9081067081067081,
+   "std": 0.0021570228245176987
+  },
+  "cov_pos": {
+   "mean": 0.9514298683613254,
+   "std": 0.0025027778033754364
+  },
+  "cov_neg": {
+   "mean": 0.8505428226779251,
+   "std": 0.0030492701229829938
+  },
+  "mean_size": {
+   "mean": 1.5209013209013211,
+   "std": 0.006744756625960535
+  },
+  "singleton_rate": {
+   "mean": 0.4667702667702668,
+   "std": 0.006561249016760021
+  },
+  "singleton_accuracy": {
+   "mean": 0.8163547462931933,
+   "std": 0.0021819086529525447
+  },
+  "ppv": {
+   "mean": 0.8176438936467244,
+   "std": 0.001959824522253195
+  },
+  "npv": {
+   "mean": 0.8135442533530242,
+   "std": 0.0060250674285737115
+  },
+  "share_singleton_pos": {
+   "mean": 0.3215488215488215,
+   "std": 0.005320863902897444
+  },
+  "share_singleton_neg": {
+   "mean": 0.14522144522144523,
+   "std": 0.0026892409847440106
+  },
+  "endpoint_choice": [
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian"
+  ]
+ },
+ "alpha0.1_gated0.20": {
+  "coverage": {
+   "mean": 0.9136493136493137,
+   "std": 0.0019799549187895712
+  },
+  "cov_pos": {
+   "mean": 0.9415796640944167,
+   "std": 0.0023061072711539777
+  },
+  "cov_neg": {
+   "mean": 0.8765379975874549,
+   "std": 0.0028805678977707047
+  },
+  "mean_size": {
+   "mean": 1.4765345765345768,
+   "std": 0.006007968665142888
+  },
+  "singleton_rate": {
+   "mean": 0.511137011137011,
+   "std": 0.005855067344923792
+  },
+  "singleton_accuracy": {
+   "mean": 0.843140154417056,
+   "std": 0.0020362412022272257
+  },
+  "ppv": {
+   "mean": 0.8453433911436914,
+   "std": 0.0016949963233582144
+  },
+  "npv": {
+   "mean": 0.8398400347722361,
+   "std": 0.004271748347037641
+  },
+  "share_singleton_pos": {
+   "mean": 0.30694120694120697,
+   "std": 0.005429685778472426
+  },
+  "share_singleton_neg": {
+   "mean": 0.20419580419580416,
+   "std": 0.0032332528431654474
+  },
+  "endpoint_choice": [
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian"
+  ]
+ },
+ "alpha0.1_margin": {
+  "coverage": {
+   "mean": 0.9095312095312096,
+   "std": 0.0021170003716052366
+  },
+  "cov_pos": {
+   "mean": 0.964457557875624,
+   "std": 0.0007333406455471406
+  },
+  "cov_neg": {
+   "mean": 0.8365500603136308,
+   "std": 0.004671873758995665
+  },
+  "mean_size": {
+   "mean": 1.359181559181559,
+   "std": 0.00784971633857121
+  },
+  "singleton_rate": {
+   "mean": 0.6284900284900286,
+   "std": 0.007957000544655752
+  },
+  "singleton_accuracy": {
+   "mean": 0.8658813375664085,
+   "std": 0.0018936706078305173
+  },
+  "ppv": {
+   "mean": 0.8531220637454198,
+   "std": 0.0021404400790413047
+  },
+  "npv": {
+   "mean": 0.8956945908852981,
+   "std": 0.0017041206516166714
+  },
+  "share_singleton_pos": {
+   "mean": 0.44004144004143997,
+   "std": 0.007683189315820415
+  },
+  "share_singleton_neg": {
+   "mean": 0.18844858844858844,
+   "std": 0.0023026273784918817
+  },
+  "endpoint_choice": [
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin"
+  ]
+ },
+ "alpha0.2_standard": {
+  "coverage": {
+   "mean": 0.8152551152551153,
+   "std": 0.0008112126269549896
+  },
+  "cov_pos": {
+   "mean": 0.9165229232864276,
+   "std": 0.0010440308669995456
+  },
+  "cov_neg": {
+   "mean": 0.6806996381182147,
+   "std": 0.002004010582127415
+  },
+  "mean_size": {
+   "mean": 1.0999740999741001,
+   "std": 0.0023194626446245087
+  },
+  "singleton_rate": {
+   "mean": 0.8388500388500388,
+   "std": 0.0031397839856393147
+  },
+  "singleton_accuracy": {
+   "mean": 0.8162294770105929,
+   "std": 0.00043786243870676115
+  },
+  "ppv": {
+   "mean": 0.8016153266834947,
+   "std": 0.0005707230244588097
+  },
+  "npv": {
+   "mean": 0.8497897692716659,
+   "std": 0.0011762078355692874
+  },
+  "share_singleton_pos": {
+   "mean": 0.5843563843563844,
+   "std": 0.0027914413023170095
+  },
+  "share_singleton_neg": {
+   "mean": 0.2544936544936545,
+   "std": 0.0014476237878769285
+  },
+  "endpoint_choice": [
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard",
+   "standard"
+  ]
+ },
+ "alpha0.2_mondrian": {
+  "coverage": {
+   "mean": 0.8256410256410256,
+   "std": 0.0018848386841398721
+  },
+  "cov_pos": {
+   "mean": 0.8866999546073536,
+   "std": 0.0029008706870032597
+  },
+  "cov_neg": {
+   "mean": 0.7445114595898673,
+   "std": 0.00438426582518367
+  },
+  "mean_size": {
+   "mean": 1.4343175343175343,
+   "std": 0.008107535541346658
+  },
+  "singleton_rate": {
+   "mean": 0.5656824656824656,
+   "std": 0.00810753554134665
+  },
+  "singleton_accuracy": {
+   "mean": 0.69173390422973,
+   "std": 0.0039356281015500115
+  },
+  "ppv": {
+   "mean": 0.7146524856893096,
+   "std": 0.004716804509607713
+  },
+  "npv": {
+   "mean": 0.6430610256433138,
+   "std": 0.004223793185075813
+  },
+  "share_singleton_pos": {
+   "mean": 0.3845635845635845,
+   "std": 0.00789232905660006
+  },
+  "share_singleton_neg": {
+   "mean": 0.18111888111888114,
+   "std": 0.004367899422728463
+  },
+  "endpoint_choice": [
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian"
+  ]
+ },
+ "alpha0.2_gated0.10": {
+  "coverage": {
+   "mean": 0.8256410256410257,
+   "std": 0.0023419123658031255
+  },
+  "cov_pos": {
+   "mean": 0.8924194280526556,
+   "std": 0.0025837947291434773
+  },
+  "cov_neg": {
+   "mean": 0.7369119420989143,
+   "std": 0.004583835946924018
+  },
+  "mean_size": {
+   "mean": 1.3045584045584047,
+   "std": 0.0072782759522120625
+  },
+  "singleton_rate": {
+   "mean": 0.642087542087542,
+   "std": 0.006954000201767985
+  },
+  "singleton_accuracy": {
+   "mean": 0.7699930814977086,
+   "std": 0.0020181099301310726
+  },
+  "ppv": {
+   "mean": 0.7791065674220569,
+   "std": 0.00193556107920221
+  },
+  "npv": {
+   "mean": 0.7518441157717191,
+   "std": 0.0038268524428049905
+  },
+  "share_singleton_pos": {
+   "mean": 0.42773892773892774,
+   "std": 0.006732263237328982
+  },
+  "share_singleton_neg": {
+   "mean": 0.21434861434861435,
+   "std": 0.002618849968353179
+  },
+  "endpoint_choice": [
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian"
+  ]
+ },
+ "alpha0.2_gated0.20": {
+  "coverage": {
+   "mean": 0.8334110334110335,
+   "std": 0.0022483848136970537
+  },
+  "cov_pos": {
+   "mean": 0.8721289151157514,
+   "std": 0.0024364479165355675
+  },
+  "cov_neg": {
+   "mean": 0.7819662243667069,
+   "std": 0.00392038600723765
+  },
+  "mean_size": {
+   "mean": 1.2444185444185443,
+   "std": 0.006675025102715063
+  },
+  "singleton_rate": {
+   "mean": 0.6944055944055945,
+   "std": 0.00650647623206477
+  },
+  "singleton_accuracy": {
+   "mean": 0.8041477276029688,
+   "std": 0.0018257834457162932
+  },
+  "ppv": {
+   "mean": 0.8188246159946194,
+   "std": 0.0017375067884310806
+  },
+  "npv": {
+   "mean": 0.784244551065006,
+   "std": 0.003042441798599493
+  },
+  "share_singleton_pos": {
+   "mean": 0.39984459984459986,
+   "std": 0.006527423164960562
+  },
+  "share_singleton_neg": {
+   "mean": 0.2945609945609945,
+   "std": 0.00212648518778617
+  },
+  "endpoint_choice": [
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian",
+   "mondrian",
+   "standard",
+   "mondrian"
+  ]
+ },
+ "alpha0.2_margin": {
+  "coverage": {
+   "mean": 0.8152551152551153,
+   "std": 0.0008112126269549896
+  },
+  "cov_pos": {
+   "mean": 0.9165229232864276,
+   "std": 0.0010440308669995456
+  },
+  "cov_neg": {
+   "mean": 0.6806996381182147,
+   "std": 0.002004010582127415
+  },
+  "mean_size": {
+   "mean": 1.0999740999741001,
+   "std": 0.0023194626446245087
+  },
+  "singleton_rate": {
+   "mean": 0.8388500388500388,
+   "std": 0.0031397839856393147
+  },
+  "singleton_accuracy": {
+   "mean": 0.8162294770105929,
+   "std": 0.00043786243870676115
+  },
+  "ppv": {
+   "mean": 0.8016153266834947,
+   "std": 0.0005707230244588097
+  },
+  "npv": {
+   "mean": 0.8497897692716659,
+   "std": 0.0011762078355692874
+  },
+  "share_singleton_pos": {
+   "mean": 0.5843563843563844,
+   "std": 0.0027914413023170095
+  },
+  "share_singleton_neg": {
+   "mean": 0.2544936544936545,
+   "std": 0.0014476237878769285
+  },
+  "endpoint_choice": [
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin",
+   "margin"
+  ]
+ }
+}

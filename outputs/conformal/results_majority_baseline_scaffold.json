@@ -1,0 +1,52 @@
+{
+ "split": "scaffold",
+ "definition": "cells = (molecule, endpoint) pairs that receive a singleton set under the method; baseline = predict the calibration-majority label of the endpoint",
+ "alpha0.1_standard": {
+  "n_singleton_cells": 3263,
+  "conformal_singleton_accuracy": 0.8443150475022985,
+  "majority_baseline_accuracy": 0.8369598528961079,
+  "difference": 0.007355194606190607
+ },
+ "alpha0.1_mondrian": {
+  "n_singleton_cells": 1325,
+  "conformal_singleton_accuracy": 0.6822641509433962,
+  "majority_baseline_accuracy": 0.7147169811320755,
+  "difference": -0.03245283018867928
+ },
+ "alpha0.1_gated0.10": {
+  "n_singleton_cells": 2231,
+  "conformal_singleton_accuracy": 0.813984760197221,
+  "majority_baseline_accuracy": 0.808606006275213,
+  "difference": 0.005378753922008039
+ },
+ "alpha0.1_gated0.20": {
+  "n_singleton_cells": 2633,
+  "conformal_singleton_accuracy": 0.8344094189137865,
+  "majority_baseline_accuracy": 0.8203570072161033,
+  "difference": 0.014052411697683231
+ },
+ "alpha0.2_standard": {
+  "n_singleton_cells": 4572,
+  "conformal_singleton_accuracy": 0.7909011373578303,
+  "majority_baseline_accuracy": 0.7856517935258093,
+  "difference": 0.005249343832021025
+ },
+ "alpha0.2_mondrian": {
+  "n_singleton_cells": 2850,
+  "conformal_singleton_accuracy": 0.6343859649122807,
+  "majority_baseline_accuracy": 0.7235087719298245,
+  "difference": -0.08912280701754383
+ },
+ "alpha0.2_gated0.10": {
+  "n_singleton_cells": 3295,
+  "conformal_singleton_accuracy": 0.7371775417298938,
+  "majority_baseline_accuracy": 0.7575113808801214,
+  "difference": -0.020333839150227573
+ },
+ "alpha0.2_gated0.20": {
+  "n_singleton_cells": 3739,
+  "conformal_singleton_accuracy": 0.7732013907461888,
+  "majority_baseline_accuracy": 0.7681198181331907,
+  "difference": 0.00508157261299802
+ }
+}

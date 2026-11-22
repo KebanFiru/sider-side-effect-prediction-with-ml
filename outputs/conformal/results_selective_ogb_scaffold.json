@@ -1,0 +1,2725 @@
+{
+ "split": "ogb_scaffold",
+ "endpoints": {
+  "alpha0.1_standard": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.4755244755244755,
+    "singleton_accuracy": 0.6470588235294118,
+    "n_singletons": 68,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.5874125874125874,
+    "singleton_accuracy": 0.75,
+    "n_singletons": 84,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.8601398601398601,
+    "singleton_accuracy": 0.983739837398374,
+    "n_singletons": 123,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.3776223776223776,
+    "singleton_accuracy": 0.8148148148148148,
+    "n_singletons": 54,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.7622377622377622,
+    "singleton_accuracy": 0.9357798165137615,
+    "n_singletons": 109,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.5734265734265734,
+    "singleton_accuracy": 0.9024390243902439,
+    "n_singletons": 82,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.993006993006993,
+    "singleton_accuracy": 0.9436619718309859,
+    "n_singletons": 142,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.6573426573426573,
+    "singleton_accuracy": 0.8829787234042553,
+    "n_singletons": 94,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.5244755244755245,
+    "singleton_accuracy": 0.8533333333333334,
+    "n_singletons": 75,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.3146853146853147,
+    "singleton_accuracy": 0.7555555555555555,
+    "n_singletons": 45,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.40559440559440557,
+    "singleton_accuracy": 0.8448275862068966,
+    "n_singletons": 58,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.8881118881118881,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.5384615384615384,
+    "singleton_accuracy": 0.8571428571428571,
+    "n_singletons": 77,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.6923076923076923,
+    "singleton_accuracy": 0.9292929292929293,
+    "n_singletons": 99,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.6503496503496503,
+    "singleton_accuracy": 0.8494623655913979,
+    "n_singletons": 93,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.46153846153846156,
+    "singleton_accuracy": 0.803030303030303,
+    "n_singletons": 66,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.965034965034965,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.6783216783216783,
+    "singleton_accuracy": 0.9175257731958762,
+    "n_singletons": 97,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.6083916083916084,
+    "singleton_accuracy": 0.8275862068965517,
+    "n_singletons": 87,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.6223776223776224,
+    "singleton_accuracy": 0.8539325842696629,
+    "n_singletons": 89,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.5034965034965035,
+    "singleton_accuracy": 0.7638888888888888,
+    "n_singletons": 72,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.5594405594405595,
+    "singleton_accuracy": 0.7125,
+    "n_singletons": 80,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.9790209790209791,
+    "singleton_accuracy": 0.9428571428571428,
+    "n_singletons": 140,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.3076923076923077,
+    "singleton_accuracy": 0.6590909090909091,
+    "n_singletons": 44,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.5594405594405595,
+    "singleton_accuracy": 0.8,
+    "n_singletons": 80,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.9300699300699301,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.4125874125874126,
+    "singleton_accuracy": 0.7457627118644068,
+    "n_singletons": 59,
+    "method": "standard"
+   }
+  ],
+  "alpha0.1_mondrian": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.4125874125874126,
+    "singleton_accuracy": 0.6271186440677966,
+    "n_singletons": 59,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.38461538461538464,
+    "singleton_accuracy": 0.7090909090909091,
+    "n_singletons": 55,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.13986013986013987,
+    "singleton_accuracy": 0.05,
+    "n_singletons": 20,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.2727272727272727,
+    "singleton_accuracy": 0.7692307692307693,
+    "n_singletons": 39,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.36363636363636365,
+    "singleton_accuracy": 0.8846153846153846,
+    "n_singletons": 52,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.34965034965034963,
+    "singleton_accuracy": 0.82,
+    "n_singletons": 50,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.3006993006993007,
+    "singleton_accuracy": 0.8604651162790697,
+    "n_singletons": 43,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.3076923076923077,
+    "singleton_accuracy": 0.6363636363636364,
+    "n_singletons": 44,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.27972027972027974,
+    "singleton_accuracy": 0.8,
+    "n_singletons": 40,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.3006993006993007,
+    "singleton_accuracy": 0.7441860465116279,
+    "n_singletons": 43,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.42657342657342656,
+    "singleton_accuracy": 0.47540983606557374,
+    "n_singletons": 61,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 0.17482517482517482,
+    "singleton_accuracy": 0.64,
+    "n_singletons": 25,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.3146853146853147,
+    "singleton_accuracy": 0.6,
+    "n_singletons": 45,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.3146853146853147,
+    "singleton_accuracy": 0.6222222222222222,
+    "n_singletons": 45,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.3916083916083916,
+    "singleton_accuracy": 0.7678571428571429,
+    "n_singletons": 56,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.3916083916083916,
+    "singleton_accuracy": 0.7678571428571429,
+    "n_singletons": 56,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 0.2867132867132867,
+    "singleton_accuracy": 0.9024390243902439,
+    "n_singletons": 41,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.20279720279720279,
+    "singleton_accuracy": 0.6551724137931034,
+    "n_singletons": 29,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.2937062937062937,
+    "singleton_accuracy": 0.8571428571428571,
+    "n_singletons": 42,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.35664335664335667,
+    "singleton_accuracy": 0.7647058823529411,
+    "n_singletons": 51,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.2937062937062937,
+    "singleton_accuracy": 0.7142857142857143,
+    "n_singletons": 42,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.3356643356643357,
+    "singleton_accuracy": 0.8125,
+    "n_singletons": 48,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.2097902097902098,
+    "singleton_accuracy": 0.23333333333333334,
+    "n_singletons": 30,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.25874125874125875,
+    "singleton_accuracy": 0.6486486486486487,
+    "n_singletons": 37,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.3776223776223776,
+    "singleton_accuracy": 0.6851851851851852,
+    "n_singletons": 54,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 0.3706293706293706,
+    "singleton_accuracy": 0.8867924528301887,
+    "n_singletons": 53,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.2727272727272727,
+    "singleton_accuracy": 0.7435897435897436,
+    "n_singletons": 39,
+    "method": "mondrian"
+   }
+  ],
+  "alpha0.1_gated0.10": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.4125874125874126,
+    "singleton_accuracy": 0.6271186440677966,
+    "n_singletons": 59,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.38461538461538464,
+    "singleton_accuracy": 0.7090909090909091,
+    "n_singletons": 55,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.8601398601398601,
+    "singleton_accuracy": 0.983739837398374,
+    "n_singletons": 123,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.2727272727272727,
+    "singleton_accuracy": 0.7692307692307693,
+    "n_singletons": 39,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.36363636363636365,
+    "singleton_accuracy": 0.8846153846153846,
+    "n_singletons": 52,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.34965034965034963,
+    "singleton_accuracy": 0.82,
+    "n_singletons": 50,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.993006993006993,
+    "singleton_accuracy": 0.9436619718309859,
+    "n_singletons": 142,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.3076923076923077,
+    "singleton_accuracy": 0.6363636363636364,
+    "n_singletons": 44,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.27972027972027974,
+    "singleton_accuracy": 0.8,
+    "n_singletons": 40,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.3006993006993007,
+    "singleton_accuracy": 0.7441860465116279,
+    "n_singletons": 43,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.42657342657342656,
+    "singleton_accuracy": 0.47540983606557374,
+    "n_singletons": 61,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.8881118881118881,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.3146853146853147,
+    "singleton_accuracy": 0.6,
+    "n_singletons": 45,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.3146853146853147,
+    "singleton_accuracy": 0.6222222222222222,
+    "n_singletons": 45,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.3916083916083916,
+    "singleton_accuracy": 0.7678571428571429,
+    "n_singletons": 56,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.3916083916083916,
+    "singleton_accuracy": 0.7678571428571429,
+    "n_singletons": 56,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.965034965034965,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.20279720279720279,
+    "singleton_accuracy": 0.6551724137931034,
+    "n_singletons": 29,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.2937062937062937,
+    "singleton_accuracy": 0.8571428571428571,
+    "n_singletons": 42,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.35664335664335667,
+    "singleton_accuracy": 0.7647058823529411,
+    "n_singletons": 51,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.2937062937062937,
+    "singleton_accuracy": 0.7142857142857143,
+    "n_singletons": 42,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.3356643356643357,
+    "singleton_accuracy": 0.8125,
+    "n_singletons": 48,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.9790209790209791,
+    "singleton_accuracy": 0.9428571428571428,
+    "n_singletons": 140,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.25874125874125875,
+    "singleton_accuracy": 0.6486486486486487,
+    "n_singletons": 37,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.3776223776223776,
+    "singleton_accuracy": 0.6851851851851852,
+    "n_singletons": 54,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.9300699300699301,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.2727272727272727,
+    "singleton_accuracy": 0.7435897435897436,
+    "n_singletons": 39,
+    "method": "mondrian"
+   }
+  ],
+  "alpha0.1_gated0.20": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.4125874125874126,
+    "singleton_accuracy": 0.6271186440677966,
+    "n_singletons": 59,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.38461538461538464,
+    "singleton_accuracy": 0.7090909090909091,
+    "n_singletons": 55,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.8601398601398601,
+    "singleton_accuracy": 0.983739837398374,
+    "n_singletons": 123,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.2727272727272727,
+    "singleton_accuracy": 0.7692307692307693,
+    "n_singletons": 39,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.36363636363636365,
+    "singleton_accuracy": 0.8846153846153846,
+    "n_singletons": 52,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.34965034965034963,
+    "singleton_accuracy": 0.82,
+    "n_singletons": 50,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.993006993006993,
+    "singleton_accuracy": 0.9436619718309859,
+    "n_singletons": 142,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.6573426573426573,
+    "singleton_accuracy": 0.8829787234042553,
+    "n_singletons": 94,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.27972027972027974,
+    "singleton_accuracy": 0.8,
+    "n_singletons": 40,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.3006993006993007,
+    "singleton_accuracy": 0.7441860465116279,
+    "n_singletons": 43,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.42657342657342656,
+    "singleton_accuracy": 0.47540983606557374,
+    "n_singletons": 61,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.8881118881118881,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.3146853146853147,
+    "singleton_accuracy": 0.6,
+    "n_singletons": 45,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.6923076923076923,
+    "singleton_accuracy": 0.9292929292929293,
+    "n_singletons": 99,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.3916083916083916,
+    "singleton_accuracy": 0.7678571428571429,
+    "n_singletons": 56,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.3916083916083916,
+    "singleton_accuracy": 0.7678571428571429,
+    "n_singletons": 56,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.965034965034965,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.6783216783216783,
+    "singleton_accuracy": 0.9175257731958762,
+    "n_singletons": 97,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.2937062937062937,
+    "singleton_accuracy": 0.8571428571428571,
+    "n_singletons": 42,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.35664335664335667,
+    "singleton_accuracy": 0.7647058823529411,
+    "n_singletons": 51,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.2937062937062937,
+    "singleton_accuracy": 0.7142857142857143,
+    "n_singletons": 42,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.3356643356643357,
+    "singleton_accuracy": 0.8125,
+    "n_singletons": 48,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.9790209790209791,
+    "singleton_accuracy": 0.9428571428571428,
+    "n_singletons": 140,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.25874125874125875,
+    "singleton_accuracy": 0.6486486486486487,
+    "n_singletons": 37,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.3776223776223776,
+    "singleton_accuracy": 0.6851851851851852,
+    "n_singletons": 54,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.9300699300699301,
+    "n_singletons": 143,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.2727272727272727,
+    "singleton_accuracy": 0.7435897435897436,
+    "n_singletons": 39,
+    "method": "mondrian"
+   }
+  ],
+  "alpha0.1_margin": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.4755244755244755,
+    "singleton_accuracy": 0.6470588235294118,
+    "n_singletons": 68,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.5874125874125874,
+    "singleton_accuracy": 0.75,
+    "n_singletons": 84,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.8601398601398601,
+    "singleton_accuracy": 0.983739837398374,
+    "n_singletons": 123,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.3776223776223776,
+    "singleton_accuracy": 0.8148148148148148,
+    "n_singletons": 54,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.7622377622377622,
+    "singleton_accuracy": 0.9357798165137615,
+    "n_singletons": 109,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.5734265734265734,
+    "singleton_accuracy": 0.9024390243902439,
+    "n_singletons": 82,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.993006993006993,
+    "singleton_accuracy": 0.9436619718309859,
+    "n_singletons": 142,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.6573426573426573,
+    "singleton_accuracy": 0.8829787234042553,
+    "n_singletons": 94,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.5244755244755245,
+    "singleton_accuracy": 0.8533333333333334,
+    "n_singletons": 75,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.3146853146853147,
+    "singleton_accuracy": 0.7555555555555555,
+    "n_singletons": 45,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.40559440559440557,
+    "singleton_accuracy": 0.8448275862068966,
+    "n_singletons": 58,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.8881118881118881,
+    "n_singletons": 143,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.5384615384615384,
+    "singleton_accuracy": 0.8571428571428571,
+    "n_singletons": 77,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.6923076923076923,
+    "singleton_accuracy": 0.9292929292929293,
+    "n_singletons": 99,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.6503496503496503,
+    "singleton_accuracy": 0.8494623655913979,
+    "n_singletons": 93,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.46153846153846156,
+    "singleton_accuracy": 0.803030303030303,
+    "n_singletons": 66,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.965034965034965,
+    "n_singletons": 143,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.6783216783216783,
+    "singleton_accuracy": 0.9175257731958762,
+    "n_singletons": 97,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.6083916083916084,
+    "singleton_accuracy": 0.8275862068965517,
+    "n_singletons": 87,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.6223776223776224,
+    "singleton_accuracy": 0.8539325842696629,
+    "n_singletons": 89,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.5034965034965035,
+    "singleton_accuracy": 0.7638888888888888,
+    "n_singletons": 72,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.5594405594405595,
+    "singleton_accuracy": 0.7125,
+    "n_singletons": 80,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.9790209790209791,
+    "singleton_accuracy": 0.9428571428571428,
+    "n_singletons": 140,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.3076923076923077,
+    "singleton_accuracy": 0.6590909090909091,
+    "n_singletons": 44,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.5594405594405595,
+    "singleton_accuracy": 0.8,
+    "n_singletons": 80,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 1.0,
+    "singleton_accuracy": 0.9300699300699301,
+    "n_singletons": 143,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.4125874125874126,
+    "singleton_accuracy": 0.7457627118644068,
+    "n_singletons": 59,
+    "method": "margin"
+   }
+  ],
+  "alpha0.2_standard": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.6993006993006993,
+    "singleton_accuracy": 0.61,
+    "n_singletons": 100,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.8321678321678322,
+    "singleton_accuracy": 0.7142857142857143,
+    "n_singletons": 119,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.7832167832167832,
+    "singleton_accuracy": 0.9821428571428571,
+    "n_singletons": 112,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.7062937062937062,
+    "singleton_accuracy": 0.6633663366336634,
+    "n_singletons": 101,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.986013986013986,
+    "singleton_accuracy": 0.8936170212765957,
+    "n_singletons": 141,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.8251748251748252,
+    "singleton_accuracy": 0.8389830508474576,
+    "n_singletons": 118,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.9230769230769231,
+    "singleton_accuracy": 0.9696969696969697,
+    "n_singletons": 132,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.993006993006993,
+    "singleton_accuracy": 0.8661971830985915,
+    "n_singletons": 142,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.916083916083916,
+    "singleton_accuracy": 0.7633587786259542,
+    "n_singletons": 131,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.6013986013986014,
+    "singleton_accuracy": 0.7325581395348837,
+    "n_singletons": 86,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.8251748251748252,
+    "singleton_accuracy": 0.7711864406779662,
+    "n_singletons": 118,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 0.9020979020979021,
+    "singleton_accuracy": 0.9147286821705426,
+    "n_singletons": 129,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.965034965034965,
+    "singleton_accuracy": 0.7753623188405797,
+    "n_singletons": 138,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.9300699300699301,
+    "singleton_accuracy": 0.9022556390977443,
+    "n_singletons": 133,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.9300699300699301,
+    "singleton_accuracy": 0.7969924812030075,
+    "n_singletons": 133,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.7412587412587412,
+    "singleton_accuracy": 0.7358490566037735,
+    "n_singletons": 106,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 0.972027972027972,
+    "singleton_accuracy": 0.9712230215827338,
+    "n_singletons": 139,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.9790209790209791,
+    "singleton_accuracy": 0.8785714285714286,
+    "n_singletons": 140,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.8811188811188811,
+    "singleton_accuracy": 0.7698412698412699,
+    "n_singletons": 126,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.8881118881118881,
+    "singleton_accuracy": 0.7952755905511811,
+    "n_singletons": 127,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.8111888111888111,
+    "singleton_accuracy": 0.7155172413793104,
+    "n_singletons": 116,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.8041958041958042,
+    "singleton_accuracy": 0.6782608695652174,
+    "n_singletons": 115,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.7902097902097902,
+    "singleton_accuracy": 0.9557522123893806,
+    "n_singletons": 113,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.5104895104895105,
+    "singleton_accuracy": 0.6164383561643836,
+    "n_singletons": 73,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.8111888111888111,
+    "singleton_accuracy": 0.7758620689655172,
+    "n_singletons": 116,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 0.9370629370629371,
+    "singleton_accuracy": 0.9402985074626866,
+    "n_singletons": 134,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.7482517482517482,
+    "singleton_accuracy": 0.7476635514018691,
+    "n_singletons": 107,
+    "method": "standard"
+   }
+  ],
+  "alpha0.2_mondrian": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.6993006993006993,
+    "singleton_accuracy": 0.62,
+    "n_singletons": 100,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.6153846153846154,
+    "singleton_accuracy": 0.6818181818181818,
+    "n_singletons": 88,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.38461538461538464,
+    "singleton_accuracy": 0.36363636363636365,
+    "n_singletons": 55,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.5524475524475524,
+    "singleton_accuracy": 0.7468354430379747,
+    "n_singletons": 79,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.6153846153846154,
+    "singleton_accuracy": 0.7954545454545454,
+    "n_singletons": 88,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.6083916083916084,
+    "singleton_accuracy": 0.8275862068965517,
+    "n_singletons": 87,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.7202797202797203,
+    "singleton_accuracy": 0.8640776699029126,
+    "n_singletons": 103,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.5524475524475524,
+    "singleton_accuracy": 0.620253164556962,
+    "n_singletons": 79,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.42657342657342656,
+    "singleton_accuracy": 0.8032786885245902,
+    "n_singletons": 61,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.5734265734265734,
+    "singleton_accuracy": 0.7073170731707317,
+    "n_singletons": 82,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.6433566433566433,
+    "singleton_accuracy": 0.5217391304347826,
+    "n_singletons": 92,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 0.40559440559440557,
+    "singleton_accuracy": 0.7931034482758621,
+    "n_singletons": 58,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.6293706293706294,
+    "singleton_accuracy": 0.5777777777777777,
+    "n_singletons": 90,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.5034965034965035,
+    "singleton_accuracy": 0.5555555555555556,
+    "n_singletons": 72,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.5944055944055944,
+    "singleton_accuracy": 0.7176470588235294,
+    "n_singletons": 85,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.5944055944055944,
+    "singleton_accuracy": 0.7764705882352941,
+    "n_singletons": 85,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 0.4965034965034965,
+    "singleton_accuracy": 0.8732394366197183,
+    "n_singletons": 71,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.43356643356643354,
+    "singleton_accuracy": 0.5483870967741935,
+    "n_singletons": 62,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.5244755244755245,
+    "singleton_accuracy": 0.8,
+    "n_singletons": 75,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.6363636363636364,
+    "singleton_accuracy": 0.7472527472527473,
+    "n_singletons": 91,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.5874125874125874,
+    "singleton_accuracy": 0.6428571428571429,
+    "n_singletons": 84,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.6083916083916084,
+    "singleton_accuracy": 0.7816091954022989,
+    "n_singletons": 87,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.5524475524475524,
+    "singleton_accuracy": 0.4177215189873418,
+    "n_singletons": 79,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.5104895104895105,
+    "singleton_accuracy": 0.6164383561643836,
+    "n_singletons": 73,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.6293706293706294,
+    "singleton_accuracy": 0.7333333333333333,
+    "n_singletons": 90,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 0.6153846153846154,
+    "singleton_accuracy": 0.8068181818181818,
+    "n_singletons": 88,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.44755244755244755,
+    "singleton_accuracy": 0.65625,
+    "n_singletons": 64,
+    "method": "mondrian"
+   }
+  ],
+  "alpha0.2_gated0.10": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.6993006993006993,
+    "singleton_accuracy": 0.62,
+    "n_singletons": 100,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.6153846153846154,
+    "singleton_accuracy": 0.6818181818181818,
+    "n_singletons": 88,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.7832167832167832,
+    "singleton_accuracy": 0.9821428571428571,
+    "n_singletons": 112,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.5524475524475524,
+    "singleton_accuracy": 0.7468354430379747,
+    "n_singletons": 79,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.6153846153846154,
+    "singleton_accuracy": 0.7954545454545454,
+    "n_singletons": 88,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.6083916083916084,
+    "singleton_accuracy": 0.8275862068965517,
+    "n_singletons": 87,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.9230769230769231,
+    "singleton_accuracy": 0.9696969696969697,
+    "n_singletons": 132,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.5524475524475524,
+    "singleton_accuracy": 0.620253164556962,
+    "n_singletons": 79,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.42657342657342656,
+    "singleton_accuracy": 0.8032786885245902,
+    "n_singletons": 61,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.5734265734265734,
+    "singleton_accuracy": 0.7073170731707317,
+    "n_singletons": 82,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.6433566433566433,
+    "singleton_accuracy": 0.5217391304347826,
+    "n_singletons": 92,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 0.9020979020979021,
+    "singleton_accuracy": 0.9147286821705426,
+    "n_singletons": 129,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.6293706293706294,
+    "singleton_accuracy": 0.5777777777777777,
+    "n_singletons": 90,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.5034965034965035,
+    "singleton_accuracy": 0.5555555555555556,
+    "n_singletons": 72,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.5944055944055944,
+    "singleton_accuracy": 0.7176470588235294,
+    "n_singletons": 85,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.5944055944055944,
+    "singleton_accuracy": 0.7764705882352941,
+    "n_singletons": 85,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 0.972027972027972,
+    "singleton_accuracy": 0.9712230215827338,
+    "n_singletons": 139,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.43356643356643354,
+    "singleton_accuracy": 0.5483870967741935,
+    "n_singletons": 62,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.5244755244755245,
+    "singleton_accuracy": 0.8,
+    "n_singletons": 75,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.6363636363636364,
+    "singleton_accuracy": 0.7472527472527473,
+    "n_singletons": 91,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.5874125874125874,
+    "singleton_accuracy": 0.6428571428571429,
+    "n_singletons": 84,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.6083916083916084,
+    "singleton_accuracy": 0.7816091954022989,
+    "n_singletons": 87,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.7902097902097902,
+    "singleton_accuracy": 0.9557522123893806,
+    "n_singletons": 113,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.5104895104895105,
+    "singleton_accuracy": 0.6164383561643836,
+    "n_singletons": 73,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.6293706293706294,
+    "singleton_accuracy": 0.7333333333333333,
+    "n_singletons": 90,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 0.9370629370629371,
+    "singleton_accuracy": 0.9402985074626866,
+    "n_singletons": 134,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.44755244755244755,
+    "singleton_accuracy": 0.65625,
+    "n_singletons": 64,
+    "method": "mondrian"
+   }
+  ],
+  "alpha0.2_gated0.20": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.6993006993006993,
+    "singleton_accuracy": 0.62,
+    "n_singletons": 100,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.6153846153846154,
+    "singleton_accuracy": 0.6818181818181818,
+    "n_singletons": 88,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.7832167832167832,
+    "singleton_accuracy": 0.9821428571428571,
+    "n_singletons": 112,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.5524475524475524,
+    "singleton_accuracy": 0.7468354430379747,
+    "n_singletons": 79,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.6153846153846154,
+    "singleton_accuracy": 0.7954545454545454,
+    "n_singletons": 88,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.6083916083916084,
+    "singleton_accuracy": 0.8275862068965517,
+    "n_singletons": 87,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.9230769230769231,
+    "singleton_accuracy": 0.9696969696969697,
+    "n_singletons": 132,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.993006993006993,
+    "singleton_accuracy": 0.8661971830985915,
+    "n_singletons": 142,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.42657342657342656,
+    "singleton_accuracy": 0.8032786885245902,
+    "n_singletons": 61,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.5734265734265734,
+    "singleton_accuracy": 0.7073170731707317,
+    "n_singletons": 82,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.6433566433566433,
+    "singleton_accuracy": 0.5217391304347826,
+    "n_singletons": 92,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 0.9020979020979021,
+    "singleton_accuracy": 0.9147286821705426,
+    "n_singletons": 129,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.6293706293706294,
+    "singleton_accuracy": 0.5777777777777777,
+    "n_singletons": 90,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.9300699300699301,
+    "singleton_accuracy": 0.9022556390977443,
+    "n_singletons": 133,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.5944055944055944,
+    "singleton_accuracy": 0.7176470588235294,
+    "n_singletons": 85,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.5944055944055944,
+    "singleton_accuracy": 0.7764705882352941,
+    "n_singletons": 85,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 0.972027972027972,
+    "singleton_accuracy": 0.9712230215827338,
+    "n_singletons": 139,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.9790209790209791,
+    "singleton_accuracy": 0.8785714285714286,
+    "n_singletons": 140,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.5244755244755245,
+    "singleton_accuracy": 0.8,
+    "n_singletons": 75,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.6363636363636364,
+    "singleton_accuracy": 0.7472527472527473,
+    "n_singletons": 91,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.5874125874125874,
+    "singleton_accuracy": 0.6428571428571429,
+    "n_singletons": 84,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.6083916083916084,
+    "singleton_accuracy": 0.7816091954022989,
+    "n_singletons": 87,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.7902097902097902,
+    "singleton_accuracy": 0.9557522123893806,
+    "n_singletons": 113,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.5104895104895105,
+    "singleton_accuracy": 0.6164383561643836,
+    "n_singletons": 73,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.6293706293706294,
+    "singleton_accuracy": 0.7333333333333333,
+    "n_singletons": 90,
+    "method": "mondrian"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 0.9370629370629371,
+    "singleton_accuracy": 0.9402985074626866,
+    "n_singletons": 134,
+    "method": "standard"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.44755244755244755,
+    "singleton_accuracy": 0.65625,
+    "n_singletons": 64,
+    "method": "mondrian"
+   }
+  ],
+  "alpha0.2_margin": [
+   {
+    "endpoint_idx": 0,
+    "prevalence_cal": 0.5153374233128835,
+    "prevalence_test": 0.5314685314685315,
+    "test_auc": 0.6210722702278085,
+    "singleton_rate": 0.6993006993006993,
+    "singleton_accuracy": 0.61,
+    "n_singletons": 100,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 1,
+    "prevalence_cal": 0.6897458369851008,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6095348837209302,
+    "singleton_rate": 0.8321678321678322,
+    "singleton_accuracy": 0.7142857142857143,
+    "n_singletons": 119,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 2,
+    "prevalence_cal": 0.014022787028921999,
+    "prevalence_test": 0.02097902097902098,
+    "test_auc": 0.5071428571428571,
+    "singleton_rate": 0.7832167832167832,
+    "singleton_accuracy": 0.9821428571428571,
+    "n_singletons": 112,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 3,
+    "prevalence_cal": 0.6143733567046451,
+    "prevalence_test": 0.5594405594405595,
+    "test_auc": 0.7188492063492063,
+    "singleton_rate": 0.7062937062937062,
+    "singleton_accuracy": 0.6633663366336634,
+    "n_singletons": 101,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 4,
+    "prevalence_cal": 0.7949167397020158,
+    "prevalence_test": 0.8951048951048951,
+    "test_auc": 0.70078125,
+    "singleton_rate": 0.986013986013986,
+    "singleton_accuracy": 0.8936170212765957,
+    "n_singletons": 141,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 5,
+    "prevalence_cal": 0.6879929886064855,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.7206221198156681,
+    "singleton_rate": 0.8251748251748252,
+    "singleton_accuracy": 0.8389830508474576,
+    "n_singletons": 118,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 6,
+    "prevalence_cal": 0.9053461875547765,
+    "prevalence_test": 0.9370629370629371,
+    "test_auc": 0.8888888888888888,
+    "singleton_rate": 0.9230769230769231,
+    "singleton_accuracy": 0.9696969696969697,
+    "n_singletons": 132,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 7,
+    "prevalence_cal": 0.1761612620508326,
+    "prevalence_test": 0.13986013986013987,
+    "test_auc": 0.6227642276422763,
+    "singleton_rate": 0.993006993006993,
+    "singleton_accuracy": 0.8661971830985915,
+    "n_singletons": 142,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 8,
+    "prevalence_cal": 0.7107800175284837,
+    "prevalence_test": 0.7342657342657343,
+    "test_auc": 0.6778195488721805,
+    "singleton_rate": 0.916083916083916,
+    "singleton_accuracy": 0.7633587786259542,
+    "n_singletons": 131,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 9,
+    "prevalence_cal": 0.49167397020157755,
+    "prevalence_test": 0.5874125874125874,
+    "test_auc": 0.7147901533494754,
+    "singleton_rate": 0.6013986013986014,
+    "singleton_accuracy": 0.7325581395348837,
+    "n_singletons": 86,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 10,
+    "prevalence_cal": 0.26468010517090274,
+    "prevalence_test": 0.26573426573426573,
+    "test_auc": 0.6414786967418546,
+    "singleton_rate": 0.8251748251748252,
+    "singleton_accuracy": 0.7711864406779662,
+    "n_singletons": 118,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 11,
+    "prevalence_cal": 0.9044697633654689,
+    "prevalence_test": 0.8881118881118881,
+    "test_auc": 0.7928149606299213,
+    "singleton_rate": 0.9020979020979021,
+    "singleton_accuracy": 0.9147286821705426,
+    "n_singletons": 129,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 12,
+    "prevalence_cal": 0.23400525854513585,
+    "prevalence_test": 0.22377622377622378,
+    "test_auc": 0.6646959459459459,
+    "singleton_rate": 0.965034965034965,
+    "singleton_accuracy": 0.7753623188405797,
+    "n_singletons": 138,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 13,
+    "prevalence_cal": 0.15337423312883436,
+    "prevalence_test": 0.1048951048951049,
+    "test_auc": 0.6265625,
+    "singleton_rate": 0.9300699300699301,
+    "singleton_accuracy": 0.9022556390977443,
+    "n_singletons": 133,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 14,
+    "prevalence_cal": 0.7712532865907099,
+    "prevalence_test": 0.7832167832167832,
+    "test_auc": 0.6680587557603687,
+    "singleton_rate": 0.9300699300699301,
+    "singleton_accuracy": 0.7969924812030075,
+    "n_singletons": 133,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 15,
+    "prevalence_cal": 0.6222611744084137,
+    "prevalence_test": 0.6013986013986014,
+    "test_auc": 0.7714198286413708,
+    "singleton_rate": 0.7412587412587412,
+    "singleton_accuracy": 0.7358490566037735,
+    "n_singletons": 106,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 16,
+    "prevalence_cal": 0.9132340052585451,
+    "prevalence_test": 0.965034965034965,
+    "test_auc": 0.6782608695652173,
+    "singleton_rate": 0.972027972027972,
+    "singleton_accuracy": 0.9712230215827338,
+    "n_singletons": 139,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 17,
+    "prevalence_cal": 0.1866783523225241,
+    "prevalence_test": 0.1258741258741259,
+    "test_auc": 0.6355555555555557,
+    "singleton_rate": 0.9790209790209791,
+    "singleton_accuracy": 0.8785714285714286,
+    "n_singletons": 140,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 18,
+    "prevalence_cal": 0.6958808063102542,
+    "prevalence_test": 0.7272727272727273,
+    "test_auc": 0.6977317554240632,
+    "singleton_rate": 0.8811188811188811,
+    "singleton_accuracy": 0.7698412698412699,
+    "n_singletons": 126,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 19,
+    "prevalence_cal": 0.7361963190184049,
+    "prevalence_test": 0.7552447552447552,
+    "test_auc": 0.7013227513227513,
+    "singleton_rate": 0.8881118881118881,
+    "singleton_accuracy": 0.7952755905511811,
+    "n_singletons": 127,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 20,
+    "prevalence_cal": 0.7055214723926381,
+    "prevalence_test": 0.7062937062937062,
+    "test_auc": 0.6288307402168789,
+    "singleton_rate": 0.8111888111888111,
+    "singleton_accuracy": 0.7155172413793104,
+    "n_singletons": 116,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 21,
+    "prevalence_cal": 0.6389132340052586,
+    "prevalence_test": 0.6083916083916084,
+    "test_auc": 0.7067939244663383,
+    "singleton_rate": 0.8041958041958042,
+    "singleton_accuracy": 0.6782608695652174,
+    "n_singletons": 115,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 22,
+    "prevalence_cal": 0.08939526730937773,
+    "prevalence_test": 0.06293706293706294,
+    "test_auc": 0.7164179104477612,
+    "singleton_rate": 0.7902097902097902,
+    "singleton_accuracy": 0.9557522123893806,
+    "n_singletons": 113,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 23,
+    "prevalence_cal": 0.4723926380368098,
+    "prevalence_test": 0.3776223776223776,
+    "test_auc": 0.6008114856429463,
+    "singleton_rate": 0.5104895104895105,
+    "singleton_accuracy": 0.6164383561643836,
+    "n_singletons": 73,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 24,
+    "prevalence_cal": 0.6862401402278703,
+    "prevalence_test": 0.6923076923076923,
+    "test_auc": 0.6719467401285584,
+    "singleton_rate": 0.8111888111888111,
+    "singleton_accuracy": 0.7758620689655172,
+    "n_singletons": 116,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 25,
+    "prevalence_cal": 0.9027169149868537,
+    "prevalence_test": 0.9300699300699301,
+    "test_auc": 0.7093984962406015,
+    "singleton_rate": 0.9370629370629371,
+    "singleton_accuracy": 0.9402985074626866,
+    "n_singletons": 134,
+    "method": "margin"
+   },
+   {
+    "endpoint_idx": 26,
+    "prevalence_cal": 0.6546888694127958,
+    "prevalence_test": 0.6993006993006993,
+    "test_auc": 0.6048837209302326,
+    "singleton_rate": 0.7482517482517482,
+    "singleton_accuracy": 0.7476635514018691,
+    "n_singletons": 107,
+    "method": "margin"
+   }
+  ]
+ }
+}

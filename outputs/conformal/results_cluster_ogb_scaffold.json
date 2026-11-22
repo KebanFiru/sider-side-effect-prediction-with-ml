@@ -1,0 +1,653 @@
+{
+ "split": "ogb_scaffold",
+ "scaffolds": {
+  "n_test_molecules": 143,
+  "n_scaffolds": 142,
+  "n_singleton_scaffolds": 141,
+  "max_molecules_per_scaffold": 2,
+  "mean_molecules_per_scaffold": 1.0070422535211268,
+  "size_distribution": {
+   "1": 141,
+   "2": 1
+  },
+  "acyclic_molecules": 0,
+  "largest_scaffolds": [
+   [
+    "O=C(NC(CCNS(=O)(=O)c1ccccc1)Cc1ccccc1)OC1CCOC1",
+    2
+   ],
+   [
+    "O=c1[nH]ncn1-c1ccc(N2CCN(c3ccc(OCC4COC(Cn5cncn5)(c5ccccc5)C4)cc3)CC2)cc1",
+    1
+   ],
+   [
+    "O=c1[nH]nnn1CCN1CCC(Nc2ccccc2)CC1",
+    1
+   ],
+   [
+    "O=c1c(-c2nn[nH]n2)cnc2ccccn12",
+    1
+   ],
+   [
+    "O=c1c2ccccc2c(Cc2ccccc2)nn1C1CCCNCC1",
+    1
+   ]
+  ]
+ },
+ "alpha0.1_standard": {
+  "balanced": {
+   "coverage": {
+    "scaffold_balanced": 0.9088419405320813,
+    "molecule_weighted": 0.9088319088319088,
+    "n_scaffolds_used": 142
+   },
+   "cov_pos": {
+    "scaffold_balanced": 0.9680258311979216,
+    "molecule_weighted": 0.9632319564230595,
+    "n_scaffolds_used": 142
+   },
+   "cov_neg": {
+    "scaffold_balanced": 0.862458938175155,
+    "molecule_weighted": 0.8365500603136309,
+    "n_scaffolds_used": 142
+   }
+  },
+  "cluster_bootstrap": {
+   "coverage": {
+    "point": 0.9088319088319088,
+    "cluster_ci": [
+     0.8961396371118593,
+     0.9207459207459208
+    ],
+    "cluster_width": 0.024606283634061477,
+    "molecule_ci": [
+     0.8951048951048951,
+     0.9217819217819218
+    ],
+    "molecule_width": 0.02667702667702665,
+    "width_ratio": 0.9223772923408879
+   },
+   "cov_pos": {
+    "point": 0.9632319564230595,
+    "cluster_ci": [
+     0.9535187416851637,
+     0.972973613120463
+    ],
+    "cluster_width": 0.019454871435299337,
+    "molecule_ci": [
+     0.9532436594954201,
+     0.9721981869650488
+    ],
+    "molecule_width": 0.018954527469628668,
+    "width_ratio": 1.0263970687991237
+   },
+   "cov_neg": {
+    "point": 0.8365500603136309,
+    "cluster_ci": [
+     0.8102716466314831,
+     0.8628829423220429
+    ],
+    "cluster_width": 0.05261129569055978,
+    "molecule_ci": [
+     0.8087214707527542,
+     0.8634094564322502
+    ],
+    "molecule_width": 0.054687985679495954,
+    "width_ratio": 0.9620265774441427
+   },
+   "singleton_rate": {
+    "point": 0.6335146335146336,
+    "cluster_ci": [
+     0.6093100656407582,
+     0.658179012345679
+    ],
+    "cluster_width": 0.04886894670492081,
+    "molecule_ci": [
+     0.6076146076146076,
+     0.6586376586376587
+    ],
+    "molecule_width": 0.05102305102305105,
+    "width_ratio": 0.9577817422725846
+   }
+  }
+ },
+ "alpha0.1_mondrian": {
+  "balanced": {
+   "coverage": {
+    "scaffold_balanced": 0.909885237350026,
+    "molecule_weighted": 0.9103859103859104,
+    "n_scaffolds_used": 142
+   },
+   "cov_pos": {
+    "scaffold_balanced": 0.9417669798795394,
+    "molecule_weighted": 0.9477984566500227,
+    "n_scaffolds_used": 142
+   },
+   "cov_neg": {
+    "scaffold_balanced": 0.8574072800881875,
+    "molecule_weighted": 0.8606755126658625,
+    "n_scaffolds_used": 142
+   }
+  },
+  "cluster_bootstrap": {
+   "coverage": {
+    "point": 0.9103859103859104,
+    "cluster_ci": [
+     0.8951038159371493,
+     0.9246309246309247
+    ],
+    "cluster_width": 0.029527108693775395,
+    "molecule_ci": [
+     0.8940688940688941,
+     0.9254079254079254
+    ],
+    "molecule_width": 0.031339031339031265,
+    "width_ratio": 0.9421831955922898
+   },
+   "cov_pos": {
+    "point": 0.9477984566500227,
+    "cluster_ci": [
+     0.9273212321200088,
+     0.9655493159768226
+    ],
+    "cluster_width": 0.038228083856813755,
+    "molecule_ci": [
+     0.9261080899668938,
+     0.9669040501729089
+    ],
+    "molecule_width": 0.04079596020601517,
+    "width_ratio": 0.937055621776423
+   },
+   "cov_neg": {
+    "point": 0.8606755126658625,
+    "cluster_ci": [
+     0.830639602007557,
+     0.8881327220725707
+    ],
+    "cluster_width": 0.057493120065013614,
+    "molecule_ci": [
+     0.828494577553594,
+     0.8879209588814809
+    ],
+    "molecule_width": 0.05942638132788691,
+    "width_ratio": 0.9674679625500588
+   },
+   "singleton_rate": {
+    "point": 0.31054131054131057,
+    "cluster_ci": [
+     0.2739183946270214,
+     0.3488760847915777
+    ],
+    "cluster_width": 0.07495769016455633,
+    "molecule_ci": [
+     0.2698782698782699,
+     0.34966329966329956
+    ],
+    "molecule_width": 0.07978502978502966,
+    "width_ratio": 0.9394956718888248
+   }
+  }
+ },
+ "alpha0.1_gated0.10": {
+  "balanced": {
+   "coverage": {
+    "scaffold_balanced": 0.9083202921231089,
+    "molecule_weighted": 0.9088319088319088,
+    "n_scaffolds_used": 142
+   },
+   "cov_pos": {
+    "scaffold_balanced": 0.9548955800185589,
+    "molecule_weighted": 0.9532455742169769,
+    "n_scaffolds_used": 142
+   },
+   "cov_neg": {
+    "scaffold_balanced": 0.8597552925460853,
+    "molecule_weighted": 0.8498190591073582,
+    "n_scaffolds_used": 142
+   }
+  },
+  "cluster_bootstrap": {
+   "coverage": {
+    "point": 0.9088319088319088,
+    "cluster_ci": [
+     0.8945473251028807,
+     0.9220415965207631
+    ],
+    "cluster_width": 0.02749427141788241,
+    "molecule_ci": [
+     0.8935508935508936,
+     0.9233359233359233
+    ],
+    "molecule_width": 0.029785029785029726,
+    "width_ratio": 0.9230902777777756
+   },
+   "cov_pos": {
+    "point": 0.9532455742169769,
+    "cluster_ci": [
+     0.935310254607935,
+     0.9690083877895644
+    ],
+    "cluster_width": 0.0336981331816294,
+    "molecule_ci": [
+     0.9341095415046051,
+     0.9697670322811693
+    ],
+    "molecule_width": 0.035657490776564216,
+    "width_ratio": 0.9450506036105434
+   },
+   "cov_neg": {
+    "point": 0.8498190591073582,
+    "cluster_ci": [
+     0.8228879401453363,
+     0.8753038379266976
+    ],
+    "cluster_width": 0.052415897781361354,
+    "molecule_ci": [
+     0.8201930353220587,
+     0.875860547326476
+    ],
+    "molecule_width": 0.05566751200441733,
+    "width_ratio": 0.9415886554657238
+   },
+   "singleton_rate": {
+    "point": 0.4716394716394716,
+    "cluster_ci": [
+     0.441848461466517,
+     0.5033907146583203
+    ],
+    "cluster_width": 0.06154225319180329,
+    "molecule_ci": [
+     0.4384874384874385,
+     0.5037619787619787
+    ],
+    "molecule_width": 0.06527454027454022,
+    "width_ratio": 0.9428217025039289
+   }
+  }
+ },
+ "alpha0.1_gated0.20": {
+  "balanced": {
+   "coverage": {
+    "scaffold_balanced": 0.912754303599374,
+    "molecule_weighted": 0.9132349132349132,
+    "n_scaffolds_used": 142
+   },
+   "cov_pos": {
+    "scaffold_balanced": 0.9467833903535352,
+    "molecule_weighted": 0.9437131184748071,
+    "n_scaffolds_used": 142
+   },
+   "cov_neg": {
+    "scaffold_balanced": 0.8899990610996585,
+    "molecule_weighted": 0.8727382388419783,
+    "n_scaffolds_used": 142
+   }
+  },
+  "cluster_bootstrap": {
+   "coverage": {
+    "point": 0.9132349132349132,
+    "cluster_ci": [
+     0.8997650112233445,
+     0.925665147320077
+    ],
+    "cluster_width": 0.025900136096732473,
+    "molecule_ci": [
+     0.8987308987308987,
+     0.9269619269619269
+    ],
+    "molecule_width": 0.028231028231028188,
+    "width_ratio": 0.917435096050314
+   },
+   "cov_pos": {
+    "point": 0.9437131184748071,
+    "cluster_ci": [
+     0.9255384944830519,
+     0.9602382635788905
+    ],
+    "cluster_width": 0.034699769095838606,
+    "molecule_ci": [
+     0.9236233455253753,
+     0.9608967153803597
+    ],
+    "molecule_width": 0.03727336985498442,
+    "width_ratio": 0.9309533651194231
+   },
+   "cov_neg": {
+    "point": 0.8727382388419783,
+    "cluster_ci": [
+     0.8487400048734278,
+     0.8952601594382678
+    ],
+    "cluster_width": 0.04652015456483993,
+    "molecule_ci": [
+     0.8467605377875979,
+     0.896077650324695
+    ],
+    "molecule_width": 0.04931711253709714,
+    "width_ratio": 0.9432862584938789
+   },
+   "singleton_rate": {
+    "point": 0.5161875161875162,
+    "cluster_ci": [
+     0.4887334887334887,
+     0.5452674897119342
+    ],
+    "cluster_width": 0.056534000978445464,
+    "molecule_ci": [
+     0.4866614866614867,
+     0.5457200207200207
+    ],
+    "molecule_width": 0.05905853405853401,
+    "width_ratio": 0.957253712434067
+   }
+  }
+ },
+ "alpha0.2_standard": {
+  "balanced": {
+   "coverage": {
+    "scaffold_balanced": 0.8159885237350025,
+    "molecule_weighted": 0.8161098161098161,
+    "n_scaffolds_used": 142
+   },
+   "cov_pos": {
+    "scaffold_balanced": 0.9222924713762509,
+    "molecule_weighted": 0.9164775306400363,
+    "n_scaffolds_used": 142
+   },
+   "cov_neg": {
+    "scaffold_balanced": 0.7240253797775165,
+    "molecule_weighted": 0.6827503015681544,
+    "n_scaffolds_used": 142
+   }
+  },
+  "cluster_bootstrap": {
+   "coverage": {
+    "point": 0.8161098161098161,
+    "cluster_ci": [
+     0.7990130174989329,
+     0.8319309985070062
+    ],
+    "cluster_width": 0.032917981008073305,
+    "molecule_ci": [
+     0.7982323232323233,
+     0.8326923076923077
+    ],
+    "molecule_width": 0.03445998445998444,
+    "width_ratio": 0.9552523462771222
+   },
+   "cov_pos": {
+    "point": 0.9164775306400363,
+    "cluster_ci": [
+     0.8993342275981977,
+     0.9322123427454947
+    ],
+    "cluster_width": 0.032878115147296993,
+    "molecule_ci": [
+     0.8997438011794643,
+     0.9314314730863086
+    ],
+    "molecule_width": 0.031687671906844295,
+    "width_ratio": 1.0375680246864578
+   },
+   "cov_neg": {
+    "point": 0.6827503015681544,
+    "cluster_ci": [
+     0.6512124757843298,
+     0.7163641244870967
+    ],
+    "cluster_width": 0.0651516487027669,
+    "molecule_ci": [
+     0.6499993043962159,
+     0.7157168300549482
+    ],
+    "molecule_width": 0.06571752565873235,
+    "width_ratio": 0.9913892534709233
+   },
+   "singleton_rate": {
+    "point": 0.8404558404558404,
+    "cluster_ci": [
+     0.8184103851504086,
+     0.8605982366399033
+    ],
+    "cluster_width": 0.042187851489494665,
+    "molecule_ci": [
+     0.818958818958819,
+     0.8606578606578607
+    ],
+    "molecule_width": 0.041699041699041706,
+    "width_ratio": 1.0117223267139062
+   }
+  }
+ },
+ "alpha0.2_mondrian": {
+  "balanced": {
+   "coverage": {
+    "scaffold_balanced": 0.8274647887323943,
+    "molecule_weighted": 0.828023828023828,
+    "n_scaffolds_used": 142
+   },
+   "cov_pos": {
+    "scaffold_balanced": 0.8772723666397938,
+    "molecule_weighted": 0.8887880163413527,
+    "n_scaffolds_used": 142
+   },
+   "cov_neg": {
+    "scaffold_balanced": 0.7349347448713537,
+    "molecule_weighted": 0.747285886610374,
+    "n_scaffolds_used": 142
+   }
+  },
+  "cluster_bootstrap": {
+   "coverage": {
+    "point": 0.828023828023828,
+    "cluster_ci": [
+     0.8088567600891545,
+     0.8462334015640582
+    ],
+    "cluster_width": 0.037376641474903716,
+    "molecule_ci": [
+     0.8065203315203315,
+     0.8474553224553224
+    ],
+    "molecule_width": 0.04093499093499087,
+    "width_ratio": 0.9130731587130876
+   },
+   "cov_pos": {
+    "point": 0.8887880163413527,
+    "cluster_ci": [
+     0.8556650114777418,
+     0.9182621766527023
+    ],
+    "cluster_width": 0.0625971651749605,
+    "molecule_ci": [
+     0.8549166083879034,
+     0.9194144058685891
+    ],
+    "molecule_width": 0.06449779748068574,
+    "width_ratio": 0.9705318262023693
+   },
+   "cov_neg": {
+    "point": 0.747285886610374,
+    "cluster_ci": [
+     0.7093648254833159,
+     0.7840539128199204
+    ],
+    "cluster_width": 0.07468908733660451,
+    "molecule_ci": [
+     0.7044280619430545,
+     0.7841716827226135
+    ],
+    "molecule_width": 0.07974362077955899,
+    "width_ratio": 0.9366152001433808
+   },
+   "singleton_rate": {
+    "point": 0.5615125615125615,
+    "cluster_ci": [
+     0.5255115255115255,
+     0.5978201254854227
+    ],
+    "cluster_width": 0.07230859997389727,
+    "molecule_ci": [
+     0.5226560476560477,
+     0.598031598031598
+    ],
+    "molecule_width": 0.07537555037555033,
+    "width_ratio": 0.9593110712111246
+   }
+  }
+ },
+ "alpha0.2_gated0.10": {
+  "balanced": {
+   "coverage": {
+    "scaffold_balanced": 0.8274647887323944,
+    "molecule_weighted": 0.828023828023828,
+    "n_scaffolds_used": 142
+   },
+   "cov_pos": {
+    "scaffold_balanced": 0.885047432538522,
+    "molecule_weighted": 0.893781207444394,
+    "n_scaffolds_used": 142
+   },
+   "cov_neg": {
+    "scaffold_balanced": 0.7374067074935365,
+    "molecule_weighted": 0.7406513872135102,
+    "n_scaffolds_used": 142
+   }
+  },
+  "cluster_bootstrap": {
+   "coverage": {
+    "point": 0.828023828023828,
+    "cluster_ci": [
+     0.8093748518044293,
+     0.8451178451178452
+    ],
+    "cluster_width": 0.035742993313415905,
+    "molecule_ci": [
+     0.8080808080808081,
+     0.8466783216783217
+    ],
+    "molecule_width": 0.03859751359751362,
+    "width_ratio": 0.9260439334547809
+   },
+   "cov_pos": {
+    "point": 0.893781207444394,
+    "cluster_ci": [
+     0.8635925532708759,
+     0.921536036808034
+    ],
+    "cluster_width": 0.05794348353715806,
+    "molecule_ci": [
+     0.8618309488834692,
+     0.922162087912088
+    ],
+    "molecule_width": 0.06033113902861875,
+    "width_ratio": 0.9604241602279698
+   },
+   "cov_neg": {
+    "point": 0.7406513872135102,
+    "cluster_ci": [
+     0.7057319237774402,
+     0.7729864213596093
+    ],
+    "cluster_width": 0.06725449758216906,
+    "molecule_ci": [
+     0.7026116627887652,
+     0.7749286624961752
+    ],
+    "molecule_width": 0.07231699970741001,
+    "width_ratio": 0.9299956836466735
+   },
+   "singleton_rate": {
+    "point": 0.6405076405076405,
+    "cluster_ci": [
+     0.6128956498748165,
+     0.6695216049382716
+    ],
+    "cluster_width": 0.056625955063455136,
+    "molecule_ci": [
+     0.6102046102046103,
+     0.6695221445221445
+    ],
+    "molecule_width": 0.05931753431753428,
+    "width_ratio": 0.9546242222464815
+   }
+  }
+ },
+ "alpha0.2_gated0.20": {
+  "balanced": {
+   "coverage": {
+    "scaffold_balanced": 0.8343766301512782,
+    "molecule_weighted": 0.835016835016835,
+    "n_scaffolds_used": 142
+   },
+   "cov_pos": {
+    "scaffold_balanced": 0.8689432376780162,
+    "molecule_weighted": 0.8738084430322288,
+    "n_scaffolds_used": 142
+   },
+   "cov_neg": {
+    "scaffold_balanced": 0.7896438777940326,
+    "molecule_weighted": 0.7834740651387213,
+    "n_scaffolds_used": 142
+   }
+  },
+  "cluster_bootstrap": {
+   "coverage": {
+    "point": 0.835016835016835,
+    "cluster_ci": [
+     0.8166216152131645,
+     0.851593027783504
+    ],
+    "cluster_width": 0.03497141257033953,
+    "molecule_ci": [
+     0.8163688163688164,
+     0.853923853923854
+    ],
+    "molecule_width": 0.03755503755503753,
+    "width_ratio": 0.9312043029936623
+   },
+   "cov_pos": {
+    "point": 0.8738084430322288,
+    "cluster_ci": [
+     0.8431154764837789,
+     0.9025658776239393
+    ],
+    "cluster_width": 0.059450401140160314,
+    "molecule_ci": [
+     0.8423051429729997,
+     0.9029959632083011
+    ],
+    "molecule_width": 0.06069082023530137,
+    "width_ratio": 0.979561668629096
+   },
+   "cov_neg": {
+    "point": 0.7834740651387213,
+    "cluster_ci": [
+     0.7525360443507652,
+     0.8117924566742495
+    ],
+    "cluster_width": 0.05925641232348433,
+    "molecule_ci": [
+     0.7497037161836911,
+     0.8134425472162033
+    ],
+    "molecule_width": 0.06373883103251221,
+    "width_ratio": 0.9296752287982585
+   },
+   "singleton_rate": {
+    "point": 0.6928256928256928,
+    "cluster_ci": [
+     0.6682036713286713,
+     0.7177897503332754
+    ],
+    "cluster_width": 0.0495860790046041,
+    "molecule_ci": [
+     0.6658831908831909,
+     0.7182077182077182
+    ],
+    "molecule_width": 0.052324527324527303,
+    "width_ratio": 0.947664155608348
+   }
+  }
+ }
+}
