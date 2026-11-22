@@ -6,7 +6,9 @@ data/raw/*-featurized/
 # How to download them: README.md (Datasets)
 data/raw/*.csv
 data/raw/*.csv.gz
-data/raw/ogb_sider_scaffold/
+# OGB/Hu scaffold split (mol.csv + train/valid/test index lists, ~35 KB): tracked, needed for the OGB test identifiers
+!data/raw/ogb_sider_scaffold/
+!data/raw/ogb_sider_scaffold/*.csv.gz
 data/raw/chembl_target_features*.json
 data/raw/chembl_potency.json
 data/raw/chembl_targets.json

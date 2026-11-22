@@ -160,9 +160,9 @@ caches them under `data/raw/` on first use (`src/data/datasets.py`), so no
 manual download is needed for these. The split used for a like-for-like
 comparison with the literature is the [OGB](https://ogb.stanford.edu/)
 `ogbg-molsider` scaffold split; its files are expected under
-`data/raw/ogb_sider_scaffold/` (`src/splits.py`).
+`data/raw/ogb_sider_scaffold/` (`src/splits.py`); these four small files (`mol.csv.gz` plus the `train`/`valid`/`test` index lists, which define the OGB/Hu test identifiers) are tracked in the repository.
 
-Already in the repository and required: the fixed split lists
+Already in the repository and required: the OGB/Hu split files under `data/raw/ogb_sider_scaffold/`, the fixed split lists
 `data/raw/gin_v2_*_ids.json` and the RDKit descriptor normalizers
 `data/raw/ginv2_rdkit_descriptor_normalizer*.json`. Without them the splits and
 normalizations would be regenerated and the reported numbers would change.
