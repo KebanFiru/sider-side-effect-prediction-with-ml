@@ -123,6 +123,24 @@ PYTHONPATH=. python -m scripts.analysis.conformal_repeated_cv --repeats 10
 PYTHONPATH=. python -m scripts.analysis.conformal_cluster
 ```
 
+**Verification status and a scikit-learn caveat.** Rerunning steps 2, 3, 4
+and 6 from the tracked `.npz` files (Python 3.14, scikit-learn 1.9.1,
+RDKit 2026.9.2, SciPy 1.18.1) reproduces `label_counts.csv`,
+`results_flat.csv`, `results_boot_*`, `results_molecule_level_*`,
+`results_selective_*`, `results_majority_baseline_*` and
+`results_cluster_summary.csv` exactly. In `results_{split}.json` only the
+Platt-rescaling block differs (at most 1.3e-4, solver tolerance), and in
+`results_cluster_*.json` the order of equally large scaffolds in the
+`largest_scaffolds` listing differs. Steps that **retrain** the Random Forest
+(`conformal_probs --part rf`, the repeated-CV step 5, and the
+"over repeated CV" blocks of `results_gated_*.json`) did **not** reproduce:
+with scikit-learn 1.9.1, `RandomForestClassifier(class_weight="balanced")` on
+the 27-column multi-output target returns degenerate probabilities (mean 0.11
+against 0.58 in the stored out-of-fold probabilities), so the conformal numbers
+computed from them are not comparable. Use the scikit-learn version of the
+original environment for those steps (not recorded in `requirements.txt`) or
+rely on the tracked `.npz`/JSON files.
+
 Paper elements and their sources: the coverage/efficiency table
 (`tab:coverage`) reads `results_{split}.json`; the gated table
 (`tab:gated`) `results_gated_*.json`, `results_cluster_*.json` and
